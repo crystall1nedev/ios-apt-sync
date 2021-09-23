@@ -1,0 +1,10 @@
+<changelog>
+	<changes>
+		<version>0.2-1</version>
+		<change>Fixed permissions issue to run chmod 6777 on installation</change>
+	</changes>
+	<changes>
+		<version>0.2-1</version>
+		<change>Initial release of jetsamctl reborn, adds some Activator support</change>
+	</changes>
+</changelog>

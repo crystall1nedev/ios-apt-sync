@@ -1,0 +1,14 @@
+<repo>
+	<footerlinks>
+		<link>
+			<name>Follow my Twitter</name>
+			<url>https://twitter.com/AdamTunnic</url>
+			<iconclass>fa fa-twitter</iconclass>
+		</link>
+        <link>
+                <name>Check out my GitHub</name>
+                <url>https://github.com/Doregon</url>
+                <iconclass>fa fa-github</iconclass>
+        </link>
+	</footerlinks>
+</repo>

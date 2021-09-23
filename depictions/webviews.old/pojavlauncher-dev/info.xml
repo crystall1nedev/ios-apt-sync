@@ -1,0 +1,26 @@
+<package>
+	<id>pojavlauncher-dev</id>
+	<name>PojavLauncher (Dev)</name>
+	<version>1.2</version>
+	<compatibility>
+		<firmware>
+			<miniOS>12.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>openjdk-16-jre</package>
+	</dependencies>
+	<shortDescription>Minecraft: Java Edition, meet iOS.</shortDescription>
+	<descriptionlist>
+		<description>Minecraft: Java Edition has landed on iOS! Meet PojavLauncher--a port of the work done for Android to bring Java Edition to iDevices.</description>
+	        <description>Compatible with Vanilla, Forge (some versions), and Fabric 1.6.1 to 21w09a!</description>
+                <description>Credit to the PojavLauncherTeam and DuyKhanhTran for creating this masterpiece.</description>
+                <description>Check out the PojavLauncher GitHub at https://bit.ly/2PgpexZ.</description>
+		<description>Take note that these are bleeding edge development builds, straight from GitHub Actions. If that's not for you, take a look at the stable version. </description>
+	</descriptionlist>
+	<changelog>
+		<change>DEV</change>
+		<change>See changelog</change>
+		<change></change>
+	</changelog>
+</package>

@@ -1,0 +1,1201 @@
+Package: com.doregon.compiler-rt
+Architecture: iphoneos-arm
+Version: 11.1.0~5.4.1~RELEASE
+Priority: optional
+Section: Development
+Maintainer: Adam Tunnic
+Depends: clang-11, clang
+Filename: ./debs/com.doregon.compiler-rt_11.1.0~5.4.1~RELEASE_iphoneos-arm.deb
+Size: 6217080
+MD5sum: 0546b0ebbb93e47d8be87279262f79f1
+SHA1: 167a6d23ab5a48dcdcb36ed6c885a057b1b0d947
+SHA256: 5b23766b6bc31362f55b92e57bb3ce9938fa62f7ff807f4c0de06a6767778122
+SHA512: 717ae971bd00a27a233ee3167f446d38fd2b82f619837e8e4bf0d72395c7260119e519983cfa4a3ad1b8daa3ad0dd9a7532bc0b8bf87aa17be6d1dc12d82ddb0
+Homepage: https://www.llvm.org/
+Description: compiler-rt for iOS
+   This is a temporary solution until I can integrate these tools with the main clang + llvm packages.
+Tag: purpose::console, role::developer
+Name: compiler-rt
+Author: Adam Tunnic
+
+Package: com.doregon.echobat
+Architecture: iphoneos-arm
+Version: 1.0.0
+Section: System
+Maintainer: Adam Tunnic <tunnic.adam@gmail.com>
+Depends: firmware (>=10.0), iokittools
+Filename: ./debs/com.doregon.echobat_1.0.0_iphoneos-arm.deb
+Size: 992
+MD5sum: 8c61f602c630cda5538c7bb987a01a6f
+SHA1: 71f84b10b6e1445f8a2f42c55799feb1be27ea39
+SHA256: 4ab6c2137579838fd099c72ab45961afb9eeadaf8d35d5a051f432a0f68316c4
+SHA512: 365e3201a463b17d2eb3ca56d29459e32bb54d03ca73e8618d3404812d565abd8f8b17c9f180f1d2206e4ac3d38e8c424a7754ee3af347fb1226aaf1b3710706
+Description: Simple tweak to get battery capacity in a terminal.
+Author: Adam Tunnic <tunnic.adam@gmail.com>
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/com.doregon.echobat.json&name=echob@t&dev=Adam%20Tunnic&section=System
+SileoDepiction: https://repo.doregon.gq/depictions/natives/com.doregon.echobat.json
+Name: echob@t
+
+Package: com.doregon.overb0ard
+Architecture: iphoneos-arm
+Version: 1.0.1
+Section: System
+Maintainer: Adam Tunnic <tunnic.adam@gmail.com>
+Installed-Size: 276
+Depends: firmware (>= 12.0)
+Conflicts: com.doregon.overb0ard-dev, com.kramerapps.jetsamctl
+Replaces: com.kramerapps.jetsamctl
+Filename: ./debs/com.doregon.overb0ard_1.0.1_iphoneos-arm.deb
+Size: 5750
+MD5sum: 7323326990b25c374c65e785c23118c0
+SHA1: 73c18036e335beba6e33c9381c591695721e85e2
+SHA256: 04ab09ff3117f31e204e867c8b02f1696ef18ccb04f7ae7f2296b7a485ff508d
+SHA512: 3fc2ea1e26fd18f5bc1e44ffaac0146c58800bcbf6dd6ef557f73f45ab5a146863e59e702d6121267755978b731df90b8ad576f0c0767141b3852dcaac23a4c9
+Description: Take control of your device's memory.
+Name: overb0ard
+Author: Adam Tunnic <tunnic.adam@gmail.com>
+Depiction: https://doregon.github.io/json-webviews/?json=https://doregon.github.io/cydia/depictions/natives/com.doregon.overb0ard.json&name=overb0ard&dev=Adam%20Tunnic&section=System
+SileoDepiction: https://doregon.github.io/cydia/depictions/natives/com.doregon.overb0ard.json
+
+Package: com.doregon.overb0ard
+Architecture: iphoneos-arm
+Version: 1.0.2
+Section: System
+Maintainer: Adam Tunnic <tunnic.adam@gmail.com>
+Installed-Size: 276
+Depends: firmware (>= 6.0)
+Conflicts: com.doregon.overb0ard-dev, com.kramerapps.jetsamctl
+Replaces: com.kramerapps.jetsamctl
+Filename: ./debs/com.doregon.overb0ard_1.0.2_iphoneos-arm.deb
+Size: 6496
+MD5sum: 287b284211b313f7c05fb38600221035
+SHA1: fddf3787e2d35921d1dfa14e1ef373fcea4d3d83
+SHA256: 022bd0cc4d3a5e2ff58d9d10dbd99f273837cc2d3fc423b2a59569b5ebc421d7
+SHA512: efe58cbf393222c7560d65ca29e99957a66a5695be47ab2287ed3fa0a3367a4157e3689187cbdb0cf2277c30c5149f36c481f27ffc2d54d94654e95cf9d1d12b
+Description: Take control of your device's memory.
+Name: overb0ard
+Author: Adam Tunnic <tunnic.adam@gmail.com>
+Depiction: https://doregon.github.io/json-webviews/?json=https://doregon.github.io/cydia/depictions/natives/com.doregon.overb0ard.json&name=overb0ard&dev=Adam%20Tunnic&section=System
+SileoDepiction: https://doregon.github.io/cydia/depictions/natives/com.doregon.overb0ard.json
+
+Package: com.doregon.overb0ard
+Architecture: iphoneos-arm
+Version: 1.0.3
+Section: System
+Maintainer: Adam Tunnic <tunnic.adam@gmail.com>
+Installed-Size: 276
+Depends: firmware (>= 6.0)
+Conflicts: com.doregon.overb0ard-dev, com.kramerapps.jetsamctl
+Replaces: com.kramerapps.jetsamctl
+Filename: ./debs/com.doregon.overb0ard_1.0.3_iphoneos-arm.deb
+Size: 7316
+MD5sum: 734c5aaf03862a83e399edddb21a2544
+SHA1: 80a6271486ca330eaf45ed4251fd10428c21dbcb
+SHA256: 2c8cfd734cb7640c6edee04c99364da83fecb9d31273a314eaaa7d4ce72c303b
+SHA512: 847701b5c583b4997c89a41225fac5228566050df16129027e460c24ff1c3fa17d3f4792fdf4bf29015e4f8e036afda189f59e9a7b49bec0a482a00467d25544
+Description: Take control of your device's memory.
+Name: overb0ard
+Author: Adam Tunnic <tunnic.adam@gmail.com>
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/com.doregon.overb0ard.json&name=overb0ard&dev=Adam%20Tunnic&section=System
+SileoDepiction: https://repo.doregon.gq/depictions/natives/com.doregon.overb0ard.json
+
+Package: com.doregon.overb0ard
+Architecture: iphoneos-arm
+Version: 1.0
+Section: System
+Maintainer: Adam Tunnic <tunnic.adam@gmail.com>
+Installed-Size: 276
+Depends: firmware (>= 12.0)
+Replaces: com.kramerapps.jetsamctl
+Filename: ./debs/com.doregon.overb0ard_1.0_iphoneos-arm.deb
+Size: 5660
+MD5sum: 40bf2830b3f3a740e70796b30f9f62ae
+SHA1: 77122d6342b2071625230524d97960510f7edc79
+SHA256: a3453fe46317154bdacae64cbafc752e243801cb044ca0ae0993e57b4330299b
+SHA512: 87fe9674e76b800d0f777522c7e0fd8bc3aece8170d3418fb9c6bb5b70f36f40b08857be5d163eb7bf2d6dcc6f4ffe1ea5a0bb2ce99a1d63e80e8ec98322adb6
+Description: Take control of your device's memory.
+Name: overb0ard
+Author: Adam Tunnic <tunnic.adam@gmail.com>
+Depiction: https://doregon.github.io/json-webviews/?json=https://doregon.github.io/cydia/depictions/natives/com.doregon.overb0ard.json&name=overb0ard&dev=Adam%20Tunnic&section=System
+SileoDepiction: https://doregon.github.io/cydia/depictions/natives/com.doregon.overb0ard.json
+
+Package: com.doregon.pojavoptimize
+Architecture: iphoneos-arm
+Version: 1.16.5-1
+Section: PojavLauncher Addons
+Maintainer: Doregon <tunnic.adam@gmail.com>
+Depends: firmware (>=12.0), pojavlauncher, com.doregon.pojavfabric
+Filename: ./debs/com.doregon.pojavoptimize_1.16.5-1_iphoneos-arm.deb
+Size: 22272756
+MD5sum: 4f93ab351153cb50393dbc586276e5b1
+SHA1: 21070aa6f79b443cf7da9bef3da8182a82e863f3
+SHA256: aa80eb46c4bb6a18476c659d90db25837f88dda7e29447827f51d702d55b2769
+SHA512: 5d1bccbbb04391e4d6e760ef5a5e751cab3da5ca8358bcfc0032c7402d3368e25f2b6327c0b6ae56956deafe8d896d982e31599b33a511bdd3f04eed35bef673
+Description: Optimization for PojavLauncher!
+Author: Doregon <tunnic.adam@gmail.com>
+Depiction: https://doregon.github.io/cydia/depictions/?p=com.doregon.pojavoptimize
+Name: PojavOptimize
+
+Package: com.doregon.pojavoptimize
+Architecture: iphoneos-arm
+Version: 1.16.5-2
+Section: Games
+Maintainer: Adam Tunnic <tunnic.adam@gmail.com>
+Depends: firmware (>=12.0), pojavlauncher | pojavlauncher-dev | pojavlauncher-zink
+Filename: ./debs/com.doregon.pojavoptimize_1.16.5-2_iphoneos-arm.deb
+Size: 21899300
+MD5sum: f1c44764b3665c58fd4ae913edde6c19
+SHA1: 3102b42ca247b85cbca73886bdd74c7c1a3c0b3d
+SHA256: b3cbcaa6831c586645d10551c27c63d8445400a28020802e1173b4c492de7dc7
+SHA512: 8f760e9226c6a945f8aa46ad928e4962a6551b78904110c8f2f2b5a999eca34e9d16946227e824f957d3c11cce75a21da7ece30142edd0a05b740d8b8e551a4b
+Description: Optimization for PojavLauncher!
+Author: Adam Tunnic <tunnic.adam@gmail.com>
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/com.doregon.pojavoptimize.json&name=PojavOptimize&dev=Adam%20Tunnic&section=Games
+SileoDepiction: https://repo.doregon.gq/depictions/natives/com.doregon.pojavoptimize.json
+Name: PojavOptimize
+
+Package: com.kramerapps.jetsamctl
+Architecture: iphoneos-arm
+Version: 0.1
+Section: System
+Maintainer: Doregon <tunnic.adam@gmail.com>
+Depends: firmware (>= 6.0)
+Filename: ./debs/com.kramerapps.jetsamctl_0.1-1_iphoneos-arm.deb
+Size: 4120
+MD5sum: cec8467208323cee8a0aee9a56b48d5e
+SHA1: 6faccae2d825d79457bc76f33ec4ac924fd519ab
+SHA256: 01e716246281d76a6f245f191ee2b2ed01bd9d320c84ec0fb015b1a6e95ade2b
+SHA512: 33e4583faa5db5b6cb1cb7a13f2657461d4517cb656bf015ccacb7ba684e54865fb92d508a9be89bad6d0dd1a5ca2452123953e8519f39e0a56123628e932347
+Description: Modify Jetsam constraints
+Name: jetsamctl
+Author: Conrad Kramer <conrad@kramerapps.com>
+Depiction: https://doregon.github.io/cydia/depictions/?p=com.kramerapps.jetsamctl
+
+Package: com.kramerapps.jetsamctl
+Architecture: iphoneos-arm
+Version: 0.2
+Section: System
+Maintainer: Doregon <tunnic.adam@gmail.com>
+Depends: firmware (>= 6.0), dpkg (>= 1.13.25-5)
+Filename: ./debs/com.kramerapps.jetsamctl_0.2_iphoneos-arm.deb
+Size: 4308
+MD5sum: ef1e1a0aa7366f0f66e460303ce05ab2
+SHA1: cf532c933f6ac4b1bf8b3ac38848cc16acf5f21d
+SHA256: f7e43a5ecd349ea8a751e15db2346ac32737dc379bbe4944e6a183dc125c9877
+SHA512: 937247bd76e2ed7043a4005e0ddf15a7782575f91cd4098411a5a37de73b27042f8869581005363c74d72731062c6a3a4f153c36df3ad23352cb8f75dcd38877
+Description: Modify Jetsam constraints
+Name: conradev's jetsamctl
+Author: Conrad Kramer <conrad@kramerapps.com>
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/com.kramerapps.jetsamctl.json&name=conradev's jetsamctl&dev=Conrad%20Kramer&section=System
+SileoDepiction: https://repo.doregon.gq/depictions/natives/com.kramerapps.jetsamctl.json
+
+Package: com.nightwind.safarifloatingtabbar
+Architecture: iphoneos-arm
+Version: 1.0.0
+Section: Tweaks
+Maintainer: Nightwind
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.nightwind.safarifloatingtabbar_1.0.0_iphoneos-arm.deb
+Size: 2896
+MD5sum: e26a10137c290ec0fea0027066160e1c
+SHA1: 1a5dd83fb4f67ac04f79f25dcc7438de591d0429
+SHA256: 9861f08398c3b23e5a0ccafdc2e0976b86da8d4a043519a61a021d53f88040a3
+SHA512: 4f782e097e815d48797b5bd7652dbb4d58a5d648ce8f9a5eece0110c258ab6f972c6e36066ef3132c2b851337157296b23ccfa01670517f2e39d9031c4a35deb
+Description: Float your Safari Tabbar!
+Name: SafariFloatingTabBar
+Author: Nightwind
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/com.nightwind.safarifloatingtabbar.json&name=Safari%208%20Floating%20Tab%20Bar&dev=Nightwind&section=Tweaks
+SileoDepiction: https://repo.doregon.gq/depictions/natives/com.nightwind.safarifloatingtabbar.json
+
+Package: openjdk-16-jre
+Architecture: iphoneos-arm
+Version: 16.0.0+git20201217.8383f41-2
+Priority: optional
+Section: Development
+Maintainer: Hayden Seay <me@diatr.us>
+Installed-Size: 333104
+Filename: ./debs/openjdk-16-jre_16.0.0+git20201217.8383f41-2_iphoneos-arm.deb
+Size: 37028948
+MD5sum: a4c2af9fd3ed167e9d5c6c752183713f
+SHA1: bac06b55b6090bf35b59dbb9a6afa3b607f58807
+SHA256: 171cca9cb97ca66ee15ccce2bed8899b1836b626672943dbe60e084ee7517a18
+SHA512: 86020405554b1e59cb242595b610877ff477621bf36d0841e87bf07445c8c4c2dda9697e9f6db907ad58d800103ad34b8aadfad35bea9501f1591cc626f66e9a
+Homepage: https://github.com/openjdk/aarch64-port/tree/jdk-macos
+Description: OpenJDK Java runtime, using Hotspot JIT
+ Minimal Java runtime - needed for executing non GUI Java programs,
+ using Hotspot JIT.
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/openjdk-16-jre.procursus.json&name=OpenJDK%2016%20-%20Runtime&dev=Hayden%20Seay&section=Development
+SileoDepiction: https://repo.doregon.gq/depictions/natives/openjdk-16-jre.procursus.json
+
+Package: openjdk-8-jdk
+Architecture: iphoneos-arm
+Version: 1.8.0~292b10-build10
+Priority: optional
+Section: Development
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: firmware (>= 12.0)
+Conflicts: java-8-openjdk, openjdk-8-jre
+Replaces: java-8-openjdk
+Filename: ./debs/openjdk-8-jdk_1.8.0~292b10-build10_iphoneos-arm.deb
+Size: 83763944
+MD5sum: 3394eb1211a23885d4fd4e325da5b77a
+SHA1: f9e4c21970523dcaede9aa29c5a461fcdb83ead4
+SHA256: cf19732d1ab7de4a22ea6970819275f9de9bb23f2cd7df37971a1daf0a3da580
+SHA512: e282f75b6fb0c2af1d34d23ed11510a5874f2da5b6113d3789d88d8d4131f1dbc2193c7c6cde091e3b301486355f7842c80715af277b25c3b1e4a2c3669bf1f2
+Homepage: https://www.azul.com
+Description: OpenJDK 8 Runtime Environment, using HotSpot JIT runtime, from Azul's Runtime.
+  This package includes developer tools to build and test your Java 8 applications directly on iOS.
+Name: openjdk-8-jdk
+Author: DuyKhanhTran, Azul <https://azul.com>
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/openjdk-8-jdk.json&name=OpenJDK%208%20Developer%20Kit&dev=PojavLauncherTeam&section=Development
+SileoDepiction: https://repo.doregon.gq/depictions/natives/openjdk-8-jdk.json
+
+Package: openjdk-8-jdk
+Architecture: iphoneos-arm
+Version: 1.8.0~292b10-build12
+Priority: optional
+Section: Development
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: firmware (>= 12.0)
+Conflicts: java-8-openjdk, openjdk-8-jre
+Replaces: java-8-openjdk
+Filename: ./debs/openjdk-8-jdk_1.8.0~292b10-build12_iphoneos-arm.deb
+Size: 83765068
+MD5sum: 415222f642e3a7f39f9b793e0711139b
+SHA1: ff6a5f8b4613a0f7c698af32f3eec5e9165c6576
+SHA256: 91e06f82d5ff1778ae452255bc2b31567408b157aefe6ae491cbe7648bae779a
+SHA512: 5c97dee46bf52b2ef9bef7301fddfab19f47ac58f72c7f3a7ee4cd72a64246f9fd0ea2e2232cecfd17bfef0f6cf87649fecc005142b3fd13b67c2cbaa28f1df6
+Homepage: https://www.azul.com
+Description: OpenJDK 8 Runtime Environment, using HotSpot JIT runtime, from Azul's Runtime.
+  This package includes developer tools to build and test your Java 8 applications directly on iOS.
+Name: openjdk-8-jdk
+Author: DuyKhanhTran, Azul <https://azul.com>
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/openjdk-8-jdk.json&name=OpenJDK%208%20Developer%20Kit&dev=PojavLauncherTeam&section=Development
+SileoDepiction: https://repo.doregon.gq/depictions/natives/openjdk-8-jdk.json
+
+Package: openjdk-8-jdk
+Architecture: iphoneos-arm
+Version: 1.8.0~292b10-build13
+Priority: optional
+Section: Development
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: firmware (>= 12.0)
+Conflicts: java-8-openjdk, openjdk-8-jre
+Replaces: java-8-openjdk
+Filename: ./debs/openjdk-8-jdk_1.8.0~292b10-build13_iphoneos-arm.deb
+Size: 80726920
+MD5sum: fb06b8d1c4d5f7b9b11f9a0b56b74aa4
+SHA1: 1d2ba8c37429c093e04dc1366d672c4025b7398c
+SHA256: 59865aa9a7d45eb36c0409a32ec19c48458288937660919ec378bbadf7a46bce
+SHA512: 48b5f3df3fd09764478ea198c7f08ab3501b2388f4c40fdeedfffebab7988a693d6caa7232d5bdbf10db2895f39d5d38f58b1f3675d75973b4bd8e220eca1bf9
+Homepage: https://www.azul.com
+Description: OpenJDK 8 Runtime Environment, using HotSpot JIT runtime, from Azul's Runtime.
+  This package includes developer tools to build and test your Java 8 applications directly on iOS.
+Name: openjdk-8-jdk
+Author: DuyKhanhTran, Azul <https://azul.com>
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/openjdk-8-jdk.json&name=OpenJDK%208%20Developer%20Kit&dev=PojavLauncherTeam&section=Development
+SileoDepiction: https://repo.doregon.gq/depictions/natives/openjdk-8-jdk.json
+
+Package: openjdk-8-jdk
+Architecture: iphoneos-arm
+Version: 1.8.0~292b10-build14
+Priority: optional
+Section: Development
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: firmware (>= 12.0)
+Conflicts: java-8-openjdk, openjdk-8-jre
+Replaces: java-8-openjdk
+Filename: ./debs/openjdk-8-jdk_1.8.0~292b10-build14_iphoneos-arm.deb
+Size: 83763348
+MD5sum: de121c2789a3e0c50c0dba3a75c74c89
+SHA1: 43705c7e7fe6607c0a216eec92a0c21f7f3c4231
+SHA256: e5ead6f8419cf7bb42a28ac7e6e7a58cbded1fabfcfb5aca0b8d25f4c0c5ae54
+SHA512: 68b279d855b372b56f92a64fda1eb97109189c69cc0ed5bb99b86a9c0638ff58803baf26b16782bb490ef972ec9d6396a7652cc3d3e367c572a46ee4e50d6000
+Homepage: https://www.azul.com
+Description: OpenJDK 8 Runtime Environment, using HotSpot JIT runtime, from Azul's Runtime.
+  This package includes developer tools to build and test your Java 8 applications directly on iOS.
+Name: openjdk-8-jdk
+Author: DuyKhanhTran, Azul <https://azul.com>
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/openjdk-8-jdk.json&name=OpenJDK%208%20Developer%20Kit&dev=PojavLauncherTeam&section=Development
+SileoDepiction: https://repo.doregon.gq/depictions/natives/openjdk-8-jdk.json
+
+Package: openjdk-8-jdk
+Architecture: iphoneos-arm
+Version: 1.8.0~292b10
+Priority: optional
+Section: Development
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: firmware (>= 12.0)
+Conflicts: java-8-openjdk, openjdk-8-jre
+Replaces: java-8-openjdk
+Filename: ./debs/openjdk-8-jdk_1.8.0~292b10-build1_iphoneos-arm.deb
+Size: 83758968
+MD5sum: 3953b08eb12c78d09e9b790f2170288f
+SHA1: a50f28c5e51fe5b822aced3b38fb91b9596f0fc6
+SHA256: 51c363a3566bd88469441f56bacb27800bb1e9693eb6b5d2151af0c444a6d3a0
+SHA512: a8b410ce3122b2b9726c3152268e7961e6762e51b45d7dea27fdebfdccbd773eec5651dd4e68fa30d49f8a3018692fec8a268d38355126c8e79ecba3fbd7e2cf
+Homepage: https://www.azul.com
+Description: OpenJDK 8 Runtime Environment, using HotSpot JIT runtime, from Azul's Runtime.
+ This package includes developer tools to build and test your Java 8 applications directly on iOS.
+Name: openjdk-8-jdk
+Author: DuyKhanhTran, Azul <https://azul.com>
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/openjdk-8-jre.json&name=OpenJDK%208%20Developer%20Kit&dev=PojavLauncherTeam&section=Development
+SileoDepiction: https://repo.doregon.gq/depictions/natives/openjdk-8-jdk.json
+
+Package: openjdk-8-jdk
+Architecture: iphoneos-arm
+Version: 1.8.0~292b10-build2
+Priority: optional
+Section: Development
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: firmware (>= 12.0)
+Conflicts: java-8-openjdk, openjdk-8-jre
+Replaces: java-8-openjdk
+Filename: ./debs/openjdk-8-jdk_1.8.0~292b10-build2_iphoneos-arm.deb
+Size: 83759896
+MD5sum: d71afeb12a5871deeff12315b765a988
+SHA1: fe298755db63b817613e1346dc4b854f9c17ccca
+SHA256: 59a5116d7741190f58eb4b7f3e371d5904c1030c2fa16df372ec773725488c02
+SHA512: 32b47c4dc385750ab637b17355d44fa2ca992ae6b159a2f6f784e0701b51c13d78128458480e77542fb0d35a094d4c15c144c38a2d16c9e93d598bec3673949f
+Homepage: https://www.azul.com
+Description: OpenJDK 8 Runtime Environment, using HotSpot JIT runtime, from Azul's Runtime.
+ This package includes developer tools to build and test your Java 8 applications directly on iOS.
+Name: openjdk-8-jdk
+Author: DuyKhanhTran, Azul <https://azul.com>
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/openjdk-8-jre.json&name=OpenJDK%208%20Developer%20Kit&dev=PojavLauncherTeam&section=Development
+SileoDepiction: https://repo.doregon.gq/depictions/natives/openjdk-8-jdk.json
+
+Package: openjdk-8-jdk
+Architecture: iphoneos-arm
+Version: 1.8.0~292b10-build3
+Priority: optional
+Section: Development
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: firmware (>= 12.0)
+Conflicts: java-8-openjdk, openjdk-8-jre
+Replaces: java-8-openjdk
+Filename: ./debs/openjdk-8-jdk_1.8.0~292b10-build3_iphoneos-arm.deb
+Size: 83762328
+MD5sum: bae24092ad5c9eca620845aea07a557e
+SHA1: 8de8d36a054050c0d44586e86b1c4b97bbb61265
+SHA256: 019a727570c355b4d12afde2fa5b556fc29e21ed822cd23b1ea440217d2590d0
+SHA512: f44c7bd221298099a0157624936948bb8d475c100efc579044d5777668e65a24528564044cc85a9f9d2cb051930d35048eb003464fc209049866c89d8cb77859
+Homepage: https://www.azul.com
+Description: OpenJDK 8 Runtime Environment, using HotSpot JIT runtime, from Azul's Runtime.
+ This package includes developer tools to build and test your Java 8 applications directly on iOS.
+Name: openjdk-8-jdk
+Author: DuyKhanhTran, Azul <https://azul.com>
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/openjdk-8-jre.json&name=OpenJDK%208%20Developer%20Kit&dev=PojavLauncherTeam&section=Development
+SileoDepiction: https://repo.doregon.gq/depictions/natives/openjdk-8-jdk.json
+
+Package: openjdk-8-jdk
+Architecture: iphoneos-arm
+Version: 1.8.0~292b10-build4
+Priority: optional
+Section: Development
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: firmware (>= 12.0)
+Conflicts: java-8-openjdk, openjdk-8-jre
+Replaces: java-8-openjdk
+Filename: ./debs/openjdk-8-jdk_1.8.0~292b10-build4_iphoneos-arm.deb
+Size: 83760452
+MD5sum: 6c41adc083235d59014d5a58c88fe98e
+SHA1: f6b75fe4b5df79ed7572c7fe770c81d9626012c9
+SHA256: cb3ecf0ff7fd29f4c2dfb58d6bea79950257969a27c566a6c895c7da7d1d8c86
+SHA512: 19b0a1be6195a001311cbaeebb05e42e937d341a8eea1bf61658f292bb33adfb68d0ea18de13fae9081645d688f170e59e02192f792671dbc3c5bbf9f28b68c4
+Homepage: https://www.azul.com
+Description: OpenJDK 8 Runtime Environment, using HotSpot JIT runtime, from Azul's Runtime.
+ This package includes developer tools to build and test your Java 8 applications directly on iOS.
+Name: openjdk-8-jdk
+Author: DuyKhanhTran, Azul <https://azul.com>
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/openjdk-8-jre.json&name=OpenJDK%208%20Developer%20Kit&dev=PojavLauncherTeam&section=Development
+SileoDepiction: https://repo.doregon.gq/depictions/natives/openjdk-8-jdk.json
+
+Package: openjdk-8-jdk
+Architecture: iphoneos-arm
+Version: 1.8.0~292b10-build5
+Priority: optional
+Section: Development
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: firmware (>= 12.0)
+Conflicts: java-8-openjdk, openjdk-8-jre
+Replaces: java-8-openjdk
+Filename: ./debs/openjdk-8-jdk_1.8.0~292b10-build5_iphoneos-arm.deb
+Size: 84196812
+MD5sum: ca6743770b1d701a6cc71c9dc36f7347
+SHA1: e6aab0d195fbb8b71e8a2f4be3d20f9f0a90b984
+SHA256: c776c55e9e5f0ee82db1f29ed1e42fe932974c58f814bac21ba212672cca8980
+SHA512: 16a96ac1cd6cf4082ca65e9b468da128cd181920e05559bc512ef891fcd7be58b662e3e42dbf60bda4b5a410116d7ac69ed5b3ecc6d4f6a140b29ec967f93fe2
+Homepage: https://www.azul.com
+Description: OpenJDK 8 Runtime Environment, using HotSpot JIT runtime, from Azul's Runtime.
+  This package includes developer tools to build and test your Java 8 applications directly on iOS.
+Name: openjdk-8-jdk
+Author: DuyKhanhTran, Azul <https://azul.com>
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/openjdk-8-jdk.json&name=OpenJDK%208%20Developer%20Kit&dev=PojavLauncherTeam&section=Development
+SileoDepiction: https://repo.doregon.gq/depictions/natives/openjdk-8-jdk.json
+
+Package: openjdk-8-jdk
+Architecture: iphoneos-arm
+Version: 1.8.0~292b10-build6
+Priority: optional
+Section: Development
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: firmware (>= 12.0)
+Conflicts: java-8-openjdk, openjdk-8-jre
+Replaces: java-8-openjdk
+Filename: ./debs/openjdk-8-jdk_1.8.0~292b10-build6_iphoneos-arm.deb
+Size: 84195232
+MD5sum: e18acb1786e8313d054bc5ee026973d1
+SHA1: f23b6c7d869530d398daeea3f181dbb231ef8a4a
+SHA256: d7a1a739b0087f70ceeff8b27e9e773bf4057d08e1f263962bb577a0ddcfa6d8
+SHA512: 31bcffce151c7855284bd0545c427f00dd8830a3a9d3706234142044cf7b32ec606209427ec3c9d5300ff52083e863375c7b936c7bde5e91f68fc4b2a296a52f
+Homepage: https://www.azul.com
+Description: OpenJDK 8 Runtime Environment, using HotSpot JIT runtime, from Azul's Runtime.
+  This package includes developer tools to build and test your Java 8 applications directly on iOS.
+Name: openjdk-8-jdk
+Author: DuyKhanhTran, Azul <https://azul.com>
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/openjdk-8-jdk.json&name=OpenJDK%208%20Developer%20Kit&dev=PojavLauncherTeam&section=Development
+SileoDepiction: https://repo.doregon.gq/depictions/natives/openjdk-8-jdk.json
+
+Package: openjdk-8-jdk
+Architecture: iphoneos-arm
+Version: 1.8.0~292b10-build7
+Priority: optional
+Section: Development
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: firmware (>= 12.0)
+Conflicts: java-8-openjdk, openjdk-8-jre
+Replaces: java-8-openjdk
+Filename: ./debs/openjdk-8-jdk_1.8.0~292b10-build7_iphoneos-arm.deb
+Size: 84193248
+MD5sum: e81e47cd602cccbdafc027bd544e1966
+SHA1: 418c201a3f0da752a62ce4645bfdf4b21fe9737d
+SHA256: 2f741b28962e1069b1bef43aa9fdafee50a0cca85a4e4350c012ba1f59dc7b23
+SHA512: b4bd5c23cb6ca114a6bd74b7fd1807f54945f69f48c52b602a239d7b1ca9a4887c9bbdb6aaad87a791e3e35f97604be938bb9bdc46ab6516fa833b1a0839dad8
+Homepage: https://www.azul.com
+Description: OpenJDK 8 Runtime Environment, using HotSpot JIT runtime, from Azul's Runtime.
+  This package includes developer tools to build and test your Java 8 applications directly on iOS.
+Name: openjdk-8-jdk
+Author: DuyKhanhTran, Azul <https://azul.com>
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/openjdk-8-jdk.json&name=OpenJDK%208%20Developer%20Kit&dev=PojavLauncherTeam&section=Development
+SileoDepiction: https://repo.doregon.gq/depictions/natives/openjdk-8-jdk.json
+
+Package: openjdk-8-jdk
+Architecture: iphoneos-arm
+Version: 1.8.0~292b10-build8
+Priority: optional
+Section: Development
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: firmware (>= 12.0)
+Conflicts: java-8-openjdk, openjdk-8-jre
+Replaces: java-8-openjdk
+Filename: ./debs/openjdk-8-jdk_1.8.0~292b10-build8_iphoneos-arm.deb
+Size: 83760516
+MD5sum: 600f32556689ab82269bf374a407e7b3
+SHA1: 038ddb9584826412f2254d0c76be2cd262277907
+SHA256: 43522f266d1236b420e3e03dc387e120df0130194b3a40974eeecd7d284979eb
+SHA512: 979f5521589b28721716e1263823c46a1456728bdf8ca2ae692785b678121ee87647f9ce0dd300301f435d425c3b85858cce12248989b12d724e67c86fe4653e
+Homepage: https://www.azul.com
+Description: OpenJDK 8 Runtime Environment, using HotSpot JIT runtime, from Azul's Runtime.
+ This package includes developer tools to build and test your Java 8 applications directly on iOS.
+Name: openjdk-8-jdk
+Author: DuyKhanhTran, Azul <https://azul.com>
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/openjdk-8-jre.json&name=OpenJDK%208%20Developer%20Kit&dev=PojavLauncherTeam&section=Development
+SileoDepiction: https://repo.doregon.gq/depictions/natives/openjdk-8-jdk.json
+
+Package: openjdk-8-jdk
+Architecture: iphoneos-arm
+Version: 1.8.0~292b10-build9
+Priority: optional
+Section: Development
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: firmware (>= 12.0)
+Conflicts: java-8-openjdk, openjdk-8-jre
+Replaces: java-8-openjdk
+Filename: ./debs/openjdk-8-jdk_1.8.0~292b10-build9_iphoneos-arm.deb
+Size: 83764564
+MD5sum: 435a5d4b8910401bf4599062d7a78556
+SHA1: 24aa3e77d7e86d5e9199e98f2f4eebbe6f8668e1
+SHA256: cba37764fb1bfa819cc5828d430c1c4d282d24e5b077089e093c8ec5f5d81aa6
+SHA512: 0dd7a38b44c1a1cce4b38a78e7baf536a4db99bac700696702eb1369fd0f50123d34fd584f3da9aee7328521ee8d7544dc526c9e1c688e4c689f80fdabfba1a8
+Homepage: https://www.azul.com
+Description: OpenJDK 8 Runtime Environment, using HotSpot JIT runtime, from Azul's Runtime.
+  This package includes developer tools to build and test your Java 8 applications directly on iOS.
+Name: openjdk-8-jdk
+Author: DuyKhanhTran, Azul <https://azul.com>
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/openjdk-8-jdk.json&name=OpenJDK%208%20Developer%20Kit&dev=PojavLauncherTeam&section=Development
+SileoDepiction: https://repo.doregon.gq/depictions/natives/openjdk-8-jdk.json
+
+Package: openjdk-8-jre
+Architecture: iphoneos-arm
+Version: 1.8.0~292b10-build10
+Priority: optional
+Section: Development
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: firmware (>= 12.0)
+Conflicts: java-8-openjdk, openjdk-8-jdk
+Replaces: java-8-openjdk
+Filename: ./debs/openjdk-8-jre_1.8.0~292b10-build10_iphoneos-arm.deb
+Size: 27726080
+MD5sum: 4508a635833583e1d628f68173306a67
+SHA1: 739bda145814b84a7e1c75bffe5edfab759e8ec4
+SHA256: 22a5ca26103c02300f325b74511ed7e9340151f128f13836c9bbae4e34edc84a
+SHA512: 636d46f20d6d279a61386d798c8299e2963f8a56d7f5c084a8454ca8533114670b4391d3f544976e7a0e1cdfa1607177ddbdb2518869c922674affa44d29a7d8
+Homepage: https://www.azul.com
+Description: OpenJDK 8 Runtime Environment, using HotSpot JIT runtime, from Azul's Runtime.
+Name: openjdk-8-jre
+Author: DuyKhanhTran, Azul <https://azul.com>
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/openjdk-8-jre.json&name=OpenJDK%208%20Developer%20Kit&dev=PojavLauncherTeam&section=Development
+SileoDepiction: https://repo.doregon.gq/depictions/natives/openjdk-8-jre.json
+
+Package: openjdk-8-jre
+Architecture: iphoneos-arm
+Version: 1.8.0~292b10-build11
+Priority: optional
+Section: Development
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: firmware (>= 12.0)
+Conflicts: java-8-openjdk, openjdk-8-jdk
+Replaces: java-8-openjdk
+Filename: ./debs/openjdk-8-jre_1.8.0~292b10-build11_iphoneos-arm.deb
+Size: 27724208
+MD5sum: 4b079fcbb2e07206cc484c7b2a4d1c90
+SHA1: ec5475b3e66b580132eee25f51834fcc44a6c36d
+SHA256: d8a183145a32862b08a43f717fcdb9524df6b34908a57a7994cf00cfbef43065
+SHA512: cc010f4817eddde8c32f0fa3e3253f99ecb0ef823a926c25918178183ce0d0ae22e1a77d9e2157b380ff85005471f3a20313450f62953f4f727d2347cb1ac09f
+Homepage: https://www.azul.com
+Description: OpenJDK 8 Runtime Environment, using HotSpot JIT runtime, from Azul's Runtime.
+Name: openjdk-8-jre
+Author: DuyKhanhTran, Azul <https://azul.com>
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/openjdk-8-jre.json&name=OpenJDK%208%20Developer%20Kit&dev=PojavLauncherTeam&section=Development
+SileoDepiction: https://repo.doregon.gq/depictions/natives/openjdk-8-jre.json
+
+Package: openjdk-8-jre
+Architecture: iphoneos-arm
+Version: 1.8.0~292b10-build12
+Priority: optional
+Section: Development
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: firmware (>= 12.0)
+Conflicts: java-8-openjdk, openjdk-8-jdk
+Replaces: java-8-openjdk
+Filename: ./debs/openjdk-8-jre_1.8.0~292b10-build12_iphoneos-arm.deb
+Size: 27723832
+MD5sum: 975c5cd51cc6b58563a2c09dabe72e37
+SHA1: 498c5eb6ad7ad563a6383b3e56e565c050a66615
+SHA256: 42cf4e33e922c0d3726cd82ebdb6ca09461484459c92684dee3bdc0bba1993e9
+SHA512: 1043789662b686ae578960d9cb82b0074541bb56f8570e1bd2bc6bbea96f9692262251efb670ef379534c5c2d4c68008d4895dbc5da3f2ca8ebbf128cc8611ae
+Homepage: https://www.azul.com
+Description: OpenJDK 8 Runtime Environment, using HotSpot JIT runtime, from Azul's Runtime.
+Name: openjdk-8-jre
+Author: DuyKhanhTran, Azul <https://azul.com>
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/openjdk-8-jre.json&name=OpenJDK%208%20Developer%20Kit&dev=PojavLauncherTeam&section=Development
+SileoDepiction: https://repo.doregon.gq/depictions/natives/openjdk-8-jre.json
+
+Package: openjdk-8-jre
+Architecture: iphoneos-arm
+Version: 1.8.0~292b10-build13
+Priority: optional
+Section: Development
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: firmware (>= 12.0)
+Conflicts: java-8-openjdk, openjdk-8-jdk
+Replaces: java-8-openjdk
+Filename: ./debs/openjdk-8-jre_1.8.0~292b10-build13_iphoneos-arm.deb
+Size: 26785440
+MD5sum: 1237f4d83f82ec2e115fe413c7fa7010
+SHA1: 60720007394f43116b01ee2a8c929d08805ece65
+SHA256: 277b962416b6f73c38bce0e2a28eda2bc21f26e194612859d505c09c902808e6
+SHA512: 39c9e7b27b7a12868712d3148342229457c33c2971c184bbe892500fe6de1aaf9223d7c4ab79e66c1c05285e85f2b70f7fec9a6818aafb234f87b5d972557c70
+Homepage: https://www.azul.com
+Description: OpenJDK 8 Runtime Environment, using HotSpot JIT runtime, from Azul's Runtime.
+Name: openjdk-8-jre
+Author: DuyKhanhTran, Azul <https://azul.com>
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/openjdk-8-jre.json&name=OpenJDK%208%20Developer%20Kit&dev=PojavLauncherTeam&section=Development
+SileoDepiction: https://repo.doregon.gq/depictions/natives/openjdk-8-jre.json
+
+Package: openjdk-8-jre
+Architecture: iphoneos-arm
+Version: 1.8.0~292b10-build14
+Priority: optional
+Section: Development
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: firmware (>= 12.0)
+Conflicts: java-8-openjdk, openjdk-8-jdk
+Replaces: java-8-openjdk
+Filename: ./debs/openjdk-8-jre_1.8.0~292b10-build14_iphoneos-arm.deb
+Size: 27728020
+MD5sum: 5d58bd38a7c566a59f40dd3a42bc3b71
+SHA1: ed4f9bc5ed0855475b7042127fea6ade728f113a
+SHA256: dec7f2f4d677917854f4cc2205843d15418030a01040f23b3f28d38fa4229f42
+SHA512: bd447c3582abbf904c1e0249094f5ef91bf925e9fd1972dc3c3a67a43e4165aacd3913b209fb123881836b6e2d477ce5834ccbb6ff983012ec60919e5ca165ac
+Homepage: https://www.azul.com
+Description: OpenJDK 8 Runtime Environment, using HotSpot JIT runtime, from Azul's Runtime.
+Name: openjdk-8-jre
+Author: DuyKhanhTran, Azul <https://azul.com>
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/openjdk-8-jre.json&name=OpenJDK%208%20Developer%20Kit&dev=PojavLauncherTeam&section=Development
+SileoDepiction: https://repo.doregon.gq/depictions/natives/openjdk-8-jre.json
+
+Package: openjdk-8-jre
+Architecture: iphoneos-arm
+Version: 1.8.0~292b10
+Priority: optional
+Section: Development
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: firmware (>= 12.0)
+Conflicts: java-8-openjdk, openjdk-8-jdk
+Replaces: java-8-openjdk
+Filename: ./debs/openjdk-8-jre_1.8.0~292b10-build1_iphoneos-arm.deb
+Size: 27727424
+MD5sum: 15ec9761952d3f63911978ad4fd419ac
+SHA1: 5b2ee501c8c943b65b46d82e124d33eb3bd10aeb
+SHA256: 4595dde366322186932f1f7af171136eb4bb97e3b870bd479875448a68925f70
+SHA512: 17ea76bc8bd37c3f661bc6a680f854970509b15aeeed01758ab179fdac07f68fd8ecb104daad99d393e4c90bcd0b62724bd59db1fa0bbb0baeb11aaf8bf785d8
+Homepage: https://www.azul.com
+Description: OpenJDK 8 Runtime Environment, using HotSpot JIT runtime, from Azul's Runtime.
+Name: openjdk-8-jre
+Author: DuyKhanhTran, Azul <https://azul.com>
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/openjdk-8-jre.json&name=OpenJDK%208%20Runtime%20Environment&dev=PojavLauncherTeam&section=Development
+SileoDepiction: https://repo.doregon.gq/depictions/natives/openjdk-8-jre.json
+
+Package: openjdk-8-jre
+Architecture: iphoneos-arm
+Version: 1.8.0~292b10-build2
+Priority: optional
+Section: Development
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: firmware (>= 12.0)
+Conflicts: java-8-openjdk, openjdk-8-jdk
+Replaces: java-8-openjdk
+Filename: ./debs/openjdk-8-jre_1.8.0~292b10-build2_iphoneos-arm.deb
+Size: 27730636
+MD5sum: dbc9e5f86274090d4985617f170c5225
+SHA1: 76d626d7dd08b2ea8cacb3b37d84b32795e2346c
+SHA256: c361bb2cbd1e23decbc9acd403cd5bd69609ea051ababa15e00fd5d2f3237f00
+SHA512: ad7db32c65b4781bc4851cac007295f7b5aa1f3dd4b48978d4435b75a0b7dad963d53743393c7a58abd587f0ea0dc49b437062b88eb6b601138f3207c8eb3433
+Homepage: https://www.azul.com
+Description: OpenJDK 8 Runtime Environment, using HotSpot JIT runtime, from Azul's Runtime.
+Name: openjdk-8-jre
+Author: DuyKhanhTran, Azul <https://azul.com>
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/openjdk-8-jre.json&name=OpenJDK%208%20Runtime%20Environment&dev=PojavLauncherTeam&section=Development
+SileoDepiction: https://repo.doregon.gq/depictions/natives/openjdk-8-jre.json
+
+Package: openjdk-8-jre
+Architecture: iphoneos-arm
+Version: 1.8.0~292b10-build3
+Priority: optional
+Section: Development
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: firmware (>= 12.0)
+Conflicts: java-8-openjdk, openjdk-8-jdk
+Replaces: java-8-openjdk
+Filename: ./debs/openjdk-8-jre_1.8.0~292b10-build3_iphoneos-arm.deb
+Size: 27725172
+MD5sum: 84f4da8ab2f8357d452e4b2f85099dc4
+SHA1: 7bc37c8e819de4af970fd0d3bc154416b55e14df
+SHA256: 742ac81eab71840818d0a3ebf7999a4286ad58fe9f23b24bdcf8fa5fda1656a9
+SHA512: 4aaadfa0ccbfd8f7d1e1bfcdd1081f8d990fd087364718abb6f252be84e448e3f475a6643305a5a2e59b4d3df5c35580b170624cd4b3a9b4649214c2a454c40e
+Homepage: https://www.azul.com
+Description: OpenJDK 8 Runtime Environment, using HotSpot JIT runtime, from Azul's Runtime.
+Name: openjdk-8-jre
+Author: DuyKhanhTran, Azul <https://azul.com>
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/openjdk-8-jre.json&name=OpenJDK%208%20Runtime%20Environment&dev=PojavLauncherTeam&section=Development
+SileoDepiction: https://repo.doregon.gq/depictions/natives/openjdk-8-jre.json
+
+Package: openjdk-8-jre
+Architecture: iphoneos-arm
+Version: 1.8.0~292b10-build4
+Priority: optional
+Section: Development
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: firmware (>= 12.0)
+Conflicts: java-8-openjdk, openjdk-8-jdk
+Replaces: java-8-openjdk
+Filename: ./debs/openjdk-8-jre_1.8.0~292b10-build4_iphoneos-arm.deb
+Size: 27728008
+MD5sum: 9a7e62c8018be2e37b0a00edafa3d870
+SHA1: 3d151c6dda8798755bb588927f3c24063405ab08
+SHA256: cc96e8058591b219fea8568aa1666376c61e6b076afbd99dc193d39cc9a55249
+SHA512: bc879667d5fc0a0a796a9cd329c921771ab9e9b9a7012896932228924e91f4424f18bea30d861d7a54557a44f36c0c2d98bf07b9cfc081f165130ec1e8b0374e
+Homepage: https://www.azul.com
+Description: OpenJDK 8 Runtime Environment, using HotSpot JIT runtime, from Azul's Runtime.
+Name: openjdk-8-jre
+Author: DuyKhanhTran, Azul <https://azul.com>
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/openjdk-8-jre.json&name=OpenJDK%208%20Runtime%20Environment&dev=PojavLauncherTeam&section=Development
+SileoDepiction: https://repo.doregon.gq/depictions/natives/openjdk-8-jre.json
+
+Package: openjdk-8-jre
+Architecture: iphoneos-arm
+Version: 1.8.0~292b10-build5
+Priority: optional
+Section: Development
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: firmware (>= 12.0)
+Conflicts: java-8-openjdk, openjdk-8-jdk
+Replaces: java-8-openjdk
+Filename: ./debs/openjdk-8-jre_1.8.0~292b10-build5_iphoneos-arm.deb
+Size: 28197344
+MD5sum: 3225233c54d5c9393c2181717c83e435
+SHA1: 4288be4bd7a7828ab033c8e278ed872f4beac49d
+SHA256: 2e36592e3f1bdec3002b5cf03e896135e926cc17366d9457622f65b4f39c2595
+SHA512: d5798e30c5d09fe23af850d4551fbc9e72923fcc6585e92dcce8a284e640fc36189b59dc43d67cd5999305ab2f6f647c3c1681a2c0e4a821891de24af69ea8a3
+Homepage: https://www.azul.com
+Description: OpenJDK 8 Runtime Environment, using HotSpot JIT runtime, from Azul's Runtime.
+Name: openjdk-8-jre
+Author: DuyKhanhTran, Azul <https://azul.com>
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/openjdk-8-jre.json&name=OpenJDK%208%20Developer%20Kit&dev=PojavLauncherTeam&section=Development
+SileoDepiction: https://repo.doregon.gq/depictions/natives/openjdk-8-jre.json
+
+Package: openjdk-8-jre
+Architecture: iphoneos-arm
+Version: 1.8.0~292b10-build6
+Priority: optional
+Section: Development
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: firmware (>= 12.0)
+Conflicts: java-8-openjdk, openjdk-8-jdk
+Replaces: java-8-openjdk
+Filename: ./debs/openjdk-8-jre_1.8.0~292b10-build6_iphoneos-arm.deb
+Size: 28192336
+MD5sum: bfd9786ed8dfa5b55738837ad6d67bdb
+SHA1: d5ef31e62a2726f8a1d8322991f4ab0957099ea9
+SHA256: c9aa791def3a501cb5a1bf2c6387bc8cfbbb3b50f65ce7af15c6bcaa38bc4ace
+SHA512: cf624a90298a1955a7dfc56bde8917fcebbd3290b57d1307a2f1843a55733fae72387b63a26645d133ef209191b733b138fa6fc318ee4c76be6e6debd006093d
+Homepage: https://www.azul.com
+Description: OpenJDK 8 Runtime Environment, using HotSpot JIT runtime, from Azul's Runtime.
+Name: openjdk-8-jre
+Author: DuyKhanhTran, Azul <https://azul.com>
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/openjdk-8-jre.json&name=OpenJDK%208%20Developer%20Kit&dev=PojavLauncherTeam&section=Development
+SileoDepiction: https://repo.doregon.gq/depictions/natives/openjdk-8-jre.json
+
+Package: openjdk-8-jre
+Architecture: iphoneos-arm
+Version: 1.8.0~292b10-build7
+Priority: optional
+Section: Development
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: firmware (>= 12.0)
+Conflicts: java-8-openjdk, openjdk-8-jdk
+Replaces: java-8-openjdk
+Filename: ./debs/openjdk-8-jre_1.8.0~292b10-build7_iphoneos-arm.deb
+Size: 28191328
+MD5sum: 4e3e4a05509abf0e040c9ac4df753abb
+SHA1: 3bc60a2aefedae5f647a2a4b470ba4d4466beb31
+SHA256: 61abdf605fb5beedfdb61780d373d1bcb40051577bbf2281041ff888313f96dd
+SHA512: 1ec72a7b0ca3d2c3997bac0d42b506d88b7abf61cc14f1f689c320b6a9853c32732b2857d65d9e0bf2ccd433b3e1b350c40b9c4cba70ce94971eaaca83b32ca6
+Homepage: https://www.azul.com
+Description: OpenJDK 8 Runtime Environment, using HotSpot JIT runtime, from Azul's Runtime.
+Name: openjdk-8-jre
+Author: DuyKhanhTran, Azul <https://azul.com>
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/openjdk-8-jre.json&name=OpenJDK%208%20Developer%20Kit&dev=PojavLauncherTeam&section=Development
+SileoDepiction: https://repo.doregon.gq/depictions/natives/openjdk-8-jre.json
+
+Package: openjdk-8-jre
+Architecture: iphoneos-arm
+Version: 1.8.0~292b10-build8
+Priority: optional
+Section: Development
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: firmware (>= 12.0)
+Conflicts: java-8-openjdk, openjdk-8-jdk
+Replaces: java-8-openjdk
+Filename: ./debs/openjdk-8-jre_1.8.0~292b10-build8_iphoneos-arm.deb
+Size: 27723276
+MD5sum: 569e00fe723f51e3e11cfcd5fc401954
+SHA1: 4184d97c113346cc6fbabaed251d69d8de1d3d10
+SHA256: 3c7723a20e43a5d9e332c85a7605ca326bddc8e80c56cd00a1472b47390cd6ea
+SHA512: 455e5f49b9d5d6bac6b7eb7040af09853772ad03b0dfb933f5fccb0cf08000c8fc2bfe8d91f2d17f0a93fc95a7d946a6ce3403f7ded74e53172038df92a0417f
+Homepage: https://www.azul.com
+Description: OpenJDK 8 Runtime Environment, using HotSpot JIT runtime, from Azul's Runtime.
+Name: openjdk-8-jre
+Author: DuyKhanhTran, Azul <https://azul.com>
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/openjdk-8-jre.json&name=OpenJDK%208%20Runtime%20Environment&dev=PojavLauncherTeam&section=Development
+SileoDepiction: https://repo.doregon.gq/depictions/natives/openjdk-8-jre.json
+
+Package: openjdk-8-jre
+Architecture: iphoneos-arm
+Version: 1.8.0~292b10-build9
+Priority: optional
+Section: Development
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: firmware (>= 12.0)
+Conflicts: java-8-openjdk, openjdk-8-jdk
+Replaces: java-8-openjdk
+Filename: ./debs/openjdk-8-jre_1.8.0~292b10-build9_iphoneos-arm.deb
+Size: 27724608
+MD5sum: 9a1f5ca30d2aa29c5a3ce43255dca352
+SHA1: 099e1fe2acfa9079d697c9d0ca0973803b57984e
+SHA256: 040cedc1ff885599c526858e2f0fa9cde60f35cd510400fcb1d9beca0f841aef
+SHA512: d51a3a0c69277dda0fd7c5eb192cf45b146b58fa50b443f4d209cef5c253a1299e1648c18248b030e8cb761f8a38bdb412321e5b90ce664aa164b65579c3f3df
+Homepage: https://www.azul.com
+Description: OpenJDK 8 Runtime Environment, using HotSpot JIT runtime, from Azul's Runtime.
+Name: openjdk-8-jre
+Author: DuyKhanhTran, Azul <https://azul.com>
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/openjdk-8-jre.json&name=OpenJDK%208%20Developer%20Kit&dev=PojavLauncherTeam&section=Development
+SileoDepiction: https://repo.doregon.gq/depictions/natives/openjdk-8-jre.json
+
+Package: pojavlauncher-dev
+Architecture: iphoneos-arm
+Version: 1.3~alpha100
+Priority: optional
+Section: Games
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: openjdk-8-jre | openjdk-16-jre | openjdk-8-jdk | openjdk-16-jdk, firmware (>= 12.0)
+Conflicts: pojavlauncher, pojavlauncher-zink
+Filename: ./debs/pojavlauncher-dev_1.3~alpha100_iphoneos-arm.deb
+Size: 6438376
+MD5sum: 4cb25da1b5d7c657ed983bf6976413a8
+SHA1: a646d42d0f4aedf813c4ce21282bf0e4caddba11
+SHA256: a51be9498fe65d6f143e0540dc907e020a5c201c37b4f86e681efe997a857331
+SHA512: 725a0398fb6cbeb8158f46d666d6725f5a13ecb9c1ac35e7db7fecff9c2fb21bb05b749cdb8d50c7d73af3e137cde7c1e04805c36a8956bceac02af8346be4ad
+Homepage: https://github.com/PojavLauncherTeam/PojavLauncher_iOS
+Description: Minecraft: Java Edition launcher for iOS, based on PojavLauncher Android.
+Name: PojavLauncher iOS (Dev)
+Author: DuyKhanhTran
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/pojavlauncher-dev.json&name=PojavLauncher%20iOS%28Dev%29&dev=PojavLauncherTeam&section=Games&icon=https://doregon.github.io/cydia/images/icons/pojavlauncher_icon.png
+SileoDepiction: https://repo.doregon.gq/depictions/natives/pojavlauncher-dev.json
+Icon: https://repo.doregon.gq/images/icons/pojavlauncher_icon.png
+
+Package: pojavlauncher-dev
+Architecture: iphoneos-arm
+Version: 1.3~alpha101
+Priority: optional
+Section: Games
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: openjdk-8-jre | openjdk-16-jre | openjdk-8-jdk | openjdk-16-jdk, firmware (>= 12.0)
+Conflicts: pojavlauncher, pojavlauncher-zink
+Filename: ./debs/pojavlauncher-dev_1.3~alpha101_iphoneos-arm.deb
+Size: 6443436
+MD5sum: 90e1fb34e1dc4694488662b132b8ec7c
+SHA1: 3f538889054e5e271bed218bfe612221f2790d99
+SHA256: 1547ac7af1cae8581eb3ff2badf55b9162b106e184ecf0917f573501954d01ad
+SHA512: 8eb5dcc7862ddd00cdc66a787fad4a2c494fca666c583c039f8f661f6200224e8e9b2135025a2de353268b04a5043afe776b4ab6ab5e7e9bc0ae2a137671ce16
+Homepage: https://github.com/PojavLauncherTeam/PojavLauncher_iOS
+Description: Minecraft: Java Edition launcher for iOS, based on PojavLauncher Android.
+Name: PojavLauncher iOS (Dev)
+Author: DuyKhanhTran
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/pojavlauncher-dev.json&name=PojavLauncher%20iOS%28Dev%29&dev=PojavLauncherTeam&section=Games&icon=https://doregon.github.io/cydia/images/icons/pojavlauncher_icon.png
+SileoDepiction: https://repo.doregon.gq/depictions/natives/pojavlauncher-dev.json
+Icon: https://repo.doregon.gq/images/icons/pojavlauncher_icon.png
+
+Package: pojavlauncher-dev
+Architecture: iphoneos-arm
+Version: 1.3~alpha102
+Priority: optional
+Section: Games
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: openjdk-8-jre | openjdk-16-jre | openjdk-8-jdk | openjdk-16-jdk, firmware (>= 12.0)
+Conflicts: pojavlauncher, pojavlauncher-zink
+Filename: ./debs/pojavlauncher-dev_1.3~alpha102_iphoneos-arm.deb
+Size: 6438940
+MD5sum: a2a9084c5bf640694118b4199ef544fc
+SHA1: c682c8eb901d08f701ccf16c369967fb4b5e52d1
+SHA256: 813dd3acbcf38bfa2baa47f52ba8f299f84c0f94bfeb0a7c5eec78a096bf3954
+SHA512: e34f9549ddfdac1b6947dc82e27d73c67c53b5dc03cf4158d867b115a9b27a1bc94ea483196199044acf4eb1c8d78cd9b58b5d804090712155d8c71ad8352bec
+Homepage: https://github.com/PojavLauncherTeam/PojavLauncher_iOS
+Description: Minecraft: Java Edition launcher for iOS, based on PojavLauncher Android.
+Name: PojavLauncher iOS (Dev)
+Author: DuyKhanhTran
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/pojavlauncher-dev.json&name=PojavLauncher%20iOS%28Dev%29&dev=PojavLauncherTeam&section=Games&icon=https://doregon.github.io/cydia/images/icons/pojavlauncher_icon.png
+SileoDepiction: https://repo.doregon.gq/depictions/natives/pojavlauncher-dev.json
+Icon: https://repo.doregon.gq/images/icons/pojavlauncher_icon.png
+
+Package: pojavlauncher-dev
+Architecture: iphoneos-arm
+Version: 1.3~alpha103
+Priority: optional
+Section: Games
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: openjdk-8-jre | openjdk-16-jre | openjdk-8-jdk | openjdk-16-jdk, firmware (>= 12.0)
+Conflicts: pojavlauncher, pojavlauncher-zink
+Filename: ./debs/pojavlauncher-dev_1.3~alpha103_iphoneos-arm.deb
+Size: 6440824
+MD5sum: f2838112f2c58da5e2af5594aa554686
+SHA1: 3e583d978e24b9c0463da7f6124e1e37a0310f6c
+SHA256: 524e5d03d9d1121796349ce6544808e73ed9de90df1df2d64145dc2336200e9c
+SHA512: 3aa89492cfd517071db4a2f183411dc0ad60d251537118cbd228275d35b50bee8808e9ab75cc66f8c195e335741930738049dd2a60bbdba9948bfa08a390f651
+Homepage: https://github.com/PojavLauncherTeam/PojavLauncher_iOS
+Description: Minecraft: Java Edition launcher for iOS, based on PojavLauncher Android.
+Name: PojavLauncher iOS (Dev)
+Author: DuyKhanhTran
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/pojavlauncher-dev.json&name=PojavLauncher%20iOS%28Dev%29&dev=PojavLauncherTeam&section=Games&icon=https://doregon.github.io/cydia/images/icons/pojavlauncher_icon.png
+SileoDepiction: https://repo.doregon.gq/depictions/natives/pojavlauncher-dev.json
+Icon: https://repo.doregon.gq/images/icons/pojavlauncher_icon.png
+
+Package: pojavlauncher-dev
+Architecture: iphoneos-arm
+Version: 1.3~alpha104
+Priority: optional
+Section: Games
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: openjdk-8-jre | openjdk-16-jre | openjdk-8-jdk | openjdk-16-jdk, firmware (>= 12.0)
+Conflicts: pojavlauncher, pojavlauncher-zink
+Filename: ./debs/pojavlauncher-dev_1.3~alpha104_iphoneos-arm.deb
+Size: 6438188
+MD5sum: 767df9a7ad5302dc72e89b689cdbbfe7
+SHA1: d6bb33bcab10d3715f655089a1108a459931d6a6
+SHA256: dea7d5124ed2c4d78c8d4fa4196275cca146588c98e0e3032fc4ea1f89622c69
+SHA512: b08de6e830ede2212510ff89b4efc74fba1760422786711838c6f3c73c8d45f5e658424e8ee1af934164684604b46750aa62e1332ba0cf6837a734b582fafc0a
+Homepage: https://github.com/PojavLauncherTeam/PojavLauncher_iOS
+Description: Minecraft: Java Edition launcher for iOS, based on PojavLauncher Android.
+Name: PojavLauncher iOS (Dev)
+Author: DuyKhanhTran
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/pojavlauncher-dev.json&name=PojavLauncher%20iOS%28Dev%29&dev=PojavLauncherTeam&section=Games&icon=https://doregon.github.io/cydia/images/icons/pojavlauncher_icon.png
+SileoDepiction: https://repo.doregon.gq/depictions/natives/pojavlauncher-dev.json
+Icon: https://repo.doregon.gq/images/icons/pojavlauncher_icon.png
+
+Package: pojavlauncher-dev
+Architecture: iphoneos-arm
+Version: 1.3~alpha105
+Priority: optional
+Section: Games
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: openjdk-8-jre | openjdk-16-jre | openjdk-8-jdk | openjdk-16-jdk, firmware (>= 12.0)
+Conflicts: pojavlauncher, pojavlauncher-zink
+Filename: ./debs/pojavlauncher-dev_1.3~alpha105_iphoneos-arm.deb
+Size: 6447128
+MD5sum: d7954b90c0a54d4d4876ee3358d72e8c
+SHA1: cff24b8599fffb78549a5d571c9b96608a28b942
+SHA256: e6080918523685976c3c3d0e70a2befe086a4ba0d381e324ecad4e85925bc796
+SHA512: 39b7466dc1e5aa992fc38abd534c3818d90cae917ee4e626b64e0b9d77ea4eea8d3cf7cfb0af6392203a4110e5fa3143c1cfb7673e70bbd0b9201e1602cb8aa0
+Homepage: https://github.com/PojavLauncherTeam/PojavLauncher_iOS
+Description: Minecraft: Java Edition launcher for iOS, based on PojavLauncher Android.
+Name: PojavLauncher iOS (Dev)
+Author: DuyKhanhTran
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/pojavlauncher-dev.json&name=PojavLauncher%20iOS%28Dev%29&dev=PojavLauncherTeam&section=Games&icon=https://doregon.github.io/cydia/images/icons/pojavlauncher_icon.png
+SileoDepiction: https://repo.doregon.gq/depictions/natives/pojavlauncher-dev.json
+Icon: https://repo.doregon.gq/images/icons/pojavlauncher_icon.png
+
+Package: pojavlauncher-dev
+Architecture: iphoneos-arm
+Version: 1.3~alpha106
+Priority: optional
+Section: Games
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: openjdk-8-jre | openjdk-16-jre | openjdk-8-jdk | openjdk-16-jdk, firmware (>= 12.0)
+Conflicts: pojavlauncher, pojavlauncher-zink
+Filename: ./debs/pojavlauncher-dev_1.3~alpha106_iphoneos-arm.deb
+Size: 6448684
+MD5sum: dd0395dfaea44604917c2238642dbf5b
+SHA1: b358d0517d534426a9b4dafc91d16462b56d3343
+SHA256: 8f5e2befb973d529cbc0e54a54d006c1705e379e0a3499062171f9755010f9ad
+SHA512: 747b5f419d757136e7667f3bd185bd316f88d07497071b368961a675ff3be42910717e5003d6a9b82a46ced5fd0af58e0006f8efc84552c19c25665a7d498958
+Homepage: https://github.com/PojavLauncherTeam/PojavLauncher_iOS
+Description: Minecraft: Java Edition launcher for iOS, based on PojavLauncher Android.
+Name: PojavLauncher iOS (Dev)
+Author: DuyKhanhTran
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/pojavlauncher-dev.json&name=PojavLauncher%20iOS%28Dev%29&dev=PojavLauncherTeam&section=Games&icon=https://doregon.github.io/cydia/images/icons/pojavlauncher_icon.png
+SileoDepiction: https://repo.doregon.gq/depictions/natives/pojavlauncher-dev.json
+Icon: https://repo.doregon.gq/images/icons/pojavlauncher_icon.png
+
+Package: pojavlauncher-dev
+Architecture: iphoneos-arm
+Version: 1.3~alpha107
+Priority: optional
+Section: Games
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: openjdk-8-jre | openjdk-16-jre | openjdk-8-jdk | openjdk-16-jdk, firmware (>= 12.0)
+Conflicts: pojavlauncher, pojavlauncher-zink
+Filename: ./debs/pojavlauncher-dev_1.3~alpha107_iphoneos-arm.deb
+Size: 17399844
+MD5sum: e31a03cd31442475760384a61f757d26
+SHA1: b9d31b23b96aa6b59893ef07d9ce47b7ebe7ca63
+SHA256: 42791a3373a0aa3b83bb7ebf5c97f6aea26ec1352e955560f301bbf5fbf755a1
+SHA512: b6ab9e05d7e31c0c8fc4107f6cf755c7c3c57d2eb5a6c5191c351269d9fa70b79b011b981cb3be22bb864c21ed4322a8d8842887a98c2523890bbb96fe0c7865
+Homepage: https://github.com/PojavLauncherTeam/PojavLauncher_iOS
+Description: Minecraft: Java Edition launcher for iOS, based on PojavLauncher Android.
+Name: PojavLauncher iOS (Dev)
+Author: DuyKhanhTran
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/pojavlauncher-dev.json&name=PojavLauncher%20iOS%28Dev%29&dev=PojavLauncherTeam&section=Games&icon=https://doregon.github.io/cydia/images/icons/pojavlauncher_icon.png
+SileoDepiction: https://repo.doregon.gq/depictions/natives/pojavlauncher-dev.json
+Icon: https://repo.doregon.gq/images/icons/pojavlauncher_icon.png
+
+Package: pojavlauncher-dev
+Architecture: iphoneos-arm
+Version: 1.3~alpha108
+Priority: optional
+Section: Games
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: openjdk-8-jre | openjdk-16-jre | openjdk-8-jdk | openjdk-16-jdk, firmware (>= 12.0)
+Conflicts: pojavlauncher, pojavlauncher-zink
+Filename: ./debs/pojavlauncher-dev_1.3~alpha108_iphoneos-arm.deb
+Size: 17392580
+MD5sum: 831bccb21de2c11a0c8910c6147b60f8
+SHA1: 520e137449f07c419a3748d6ab1ac3d70e292528
+SHA256: 44afa4fdf3e4619c619da31833693fabd774f09bb97633f8ff772b688ab1ef10
+SHA512: 827ad4671f6cca87c7b64772d04bf8ce04269f85f675d523ef4fc4c3fc8f7e159feb159e5d8dc820bb7b87db99b909ab48da7707209fad18bdb307b89728beaf
+Homepage: https://github.com/PojavLauncherTeam/PojavLauncher_iOS
+Description: Minecraft: Java Edition launcher for iOS, based on PojavLauncher Android.
+Name: PojavLauncher iOS (Dev)
+Author: DuyKhanhTran
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/pojavlauncher-dev.json&name=PojavLauncher%20iOS%28Dev%29&dev=PojavLauncherTeam&section=Games&icon=https://doregon.github.io/cydia/images/icons/pojavlauncher_icon.png
+SileoDepiction: https://repo.doregon.gq/depictions/natives/pojavlauncher-dev.json
+Icon: https://repo.doregon.gq/images/icons/pojavlauncher_icon.png
+
+Package: pojavlauncher-dev
+Architecture: iphoneos-arm
+Version: 1.3~alpha109
+Priority: optional
+Section: Games
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: openjdk-8-jre | openjdk-16-jre | openjdk-8-jdk | openjdk-16-jdk, firmware (>= 12.0)
+Conflicts: pojavlauncher, pojavlauncher-zink
+Filename: ./debs/pojavlauncher-dev_1.3~alpha109_iphoneos-arm.deb
+Size: 17390764
+MD5sum: b242c8e974af26e8c3c348c482cb9da6
+SHA1: e0b162fb0233a84da3fe6afefb1fc3425f6a3b92
+SHA256: 1d5dd3725a9452f459d7adfd51969cf6fd5a661faad52cb6e570187d0e183d09
+SHA512: d18c5ec2328e0baf4a93b266cb797cd2adcf08eff1ed25eae27c7ba3f0ee795d2410e3d234cc899bb825b8b0959287d9e064116d35e30ec3cdc74d5f631dac49
+Homepage: https://github.com/PojavLauncherTeam/PojavLauncher_iOS
+Description: Minecraft: Java Edition launcher for iOS, based on PojavLauncher Android.
+Name: PojavLauncher iOS (Dev)
+Author: DuyKhanhTran
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/pojavlauncher-dev.json&name=PojavLauncher%20iOS%28Dev%29&dev=PojavLauncherTeam&section=Games&icon=https://doregon.github.io/cydia/images/icons/pojavlauncher_icon.png
+SileoDepiction: https://repo.doregon.gq/depictions/natives/pojavlauncher-dev.json
+Icon: https://repo.doregon.gq/images/icons/pojavlauncher_icon.png
+
+Package: pojavlauncher-dev
+Architecture: iphoneos-arm
+Version: 1.3~alpha110
+Priority: optional
+Section: Games
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: openjdk-8-jre | openjdk-16-jre | openjdk-8-jdk | openjdk-16-jdk, firmware (>= 12.0)
+Conflicts: pojavlauncher, pojavlauncher-zink
+Filename: ./debs/pojavlauncher-dev_1.3~alpha110_iphoneos-arm.deb
+Size: 17392572
+MD5sum: d280ba52cb78b0ec43fab68ec36e4155
+SHA1: b5a6329c3b710f6593593af72071ecaf1e7d5917
+SHA256: 9f87c230f230bd138e7571d852049897a20b26afb112c1316be3a8e02ca89416
+SHA512: 370f6b1154d3414de12606ec76245bc6a92950012f34749b71734eb02ebdf7375781ae8cf04a7c7efd82410d93c720c767e35dc94003e129c89b30c176e74cd8
+Homepage: https://github.com/PojavLauncherTeam/PojavLauncher_iOS
+Description: Minecraft: Java Edition launcher for iOS, based on PojavLauncher Android.
+Name: PojavLauncher iOS (Dev)
+Author: DuyKhanhTran
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/pojavlauncher-dev.json&name=PojavLauncher%20iOS%28Dev%29&dev=PojavLauncherTeam&section=Games&icon=https://doregon.github.io/cydia/images/icons/pojavlauncher_icon.png
+SileoDepiction: https://repo.doregon.gq/depictions/natives/pojavlauncher-dev.json
+Icon: https://repo.doregon.gq/images/icons/pojavlauncher_icon.png
+
+Package: pojavlauncher-dev
+Architecture: iphoneos-arm
+Version: 1.3~alpha111
+Priority: optional
+Section: Games
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: openjdk-8-jre | openjdk-16-jre | openjdk-8-jdk | openjdk-16-jdk, firmware (>= 12.0)
+Conflicts: pojavlauncher, pojavlauncher-zink
+Filename: ./debs/pojavlauncher-dev_1.3~alpha111_iphoneos-arm.deb
+Size: 17395084
+MD5sum: 03bcaf1f45f1803dd75ea1b62ebe8c96
+SHA1: 6da56358df4972f0d2a7280a930712cd3ef200b6
+SHA256: 67ed2f7de694c68979f1c8673f4e30c769abdd27dbdfd6f2592a6542d581879e
+SHA512: 8b9c66bcd9f48875a6e170e9867ba2bf709b3c2eaf9a1d36a090e14eae3a54b9f7c484e38bd6cf73147d974f784fa0535ba690aced9045c486acef48b26c7596
+Homepage: https://github.com/PojavLauncherTeam/PojavLauncher_iOS
+Description: Minecraft: Java Edition launcher for iOS, based on PojavLauncher Android.
+Name: PojavLauncher iOS (Dev)
+Author: DuyKhanhTran
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/pojavlauncher-dev.json&name=PojavLauncher%20iOS%28Dev%29&dev=PojavLauncherTeam&section=Games&icon=https://doregon.github.io/cydia/images/icons/pojavlauncher_icon.png
+SileoDepiction: https://repo.doregon.gq/depictions/natives/pojavlauncher-dev.json
+Icon: https://repo.doregon.gq/images/icons/pojavlauncher_icon.png
+
+Package: pojavlauncher-dev
+Architecture: iphoneos-arm
+Version: 1.3~alpha112
+Priority: optional
+Section: Games
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: openjdk-8-jre | openjdk-16-jre | openjdk-8-jdk | openjdk-16-jdk, firmware (>= 12.0)
+Conflicts: pojavlauncher, pojavlauncher-zink
+Filename: ./debs/pojavlauncher-dev_1.3~alpha112_iphoneos-arm.deb
+Size: 17388392
+MD5sum: b8c0a18b05ca988bac3eac0a89d0a716
+SHA1: 7b39ce7b0439f26f887137737573632217a3da59
+SHA256: 94fb6417a6610ae48f59bacea1734c7e64445d0a5307111777c94fe6500a31d4
+SHA512: bbf6f552d23b052d62afdeebd79c3f1ccac1e5ab6c4d1390a5f5ab1a972d1a5816e8d0ec56dba84bfce48d025d07b2a4d69988b6fe06437d8e9ea6734442b381
+Homepage: https://github.com/PojavLauncherTeam/PojavLauncher_iOS
+Description: Minecraft: Java Edition launcher for iOS, based on PojavLauncher Android.
+Name: PojavLauncher iOS (Dev)
+Author: DuyKhanhTran
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/pojavlauncher-dev.json&name=PojavLauncher%20iOS%28Dev%29&dev=PojavLauncherTeam&section=Games&icon=https://doregon.github.io/cydia/images/icons/pojavlauncher_icon.png
+SileoDepiction: https://repo.doregon.gq/depictions/natives/pojavlauncher-dev.json
+Icon: https://repo.doregon.gq/images/icons/pojavlauncher_icon.png
+
+Package: pojavlauncher-dev
+Architecture: iphoneos-arm
+Version: 2.0~alpha1
+Priority: optional
+Section: Games
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: openjdk-8-jre | openjdk-16-jre | openjdk-8-jdk | openjdk-16-jdk, firmware (>= 12.0)
+Conflicts: pojavlauncher, pojavlauncher-zink
+Filename: ./debs/pojavlauncher-dev_2.0~alpha1_iphoneos-arm.deb
+Size: 17392428
+MD5sum: d3af64bb40fb6b8a24dd49288c44fdc9
+SHA1: b11ddf127ae94542d12fdf980bbb90ccfe7699ee
+SHA256: 53811702827b628d47f7a5c5b6a11b54a11315e96bc24590cddf8c735c8f41a4
+SHA512: 163e24e0fab0b34fe2013eb6539292455393b548bdf32a2964a0d36145d8c0f9ad4f2eb0f3e4595af375c69a392d1fecb4a01b2bed79d0c57ec30b622e042173
+Homepage: https://github.com/PojavLauncherTeam/PojavLauncher_iOS
+Description: Minecraft: Java Edition launcher for iOS, based on PojavLauncher Android.
+Name: PojavLauncher iOS (Dev)
+Author: DuyKhanhTran
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/pojavlauncher-dev.json&name=PojavLauncher%20iOS%28Dev%29&dev=PojavLauncherTeam&section=Games&icon=https://doregon.github.io/cydia/images/icons/pojavlauncher_icon.png
+SileoDepiction: https://repo.doregon.gq/depictions/natives/pojavlauncher-dev.json
+Icon: https://repo.doregon.gq/images/icons/pojavlauncher_icon.png
+
+Package: pojavlauncher
+Architecture: iphoneos-arm
+Version: 1.0
+Priority: optional
+Section: Games
+Maintainer: DuyKhanhTran
+Depends: openjdk-16-jre
+Filename: ./debs/pojavlauncher_1.0_iphoneos-arm.deb
+Size: 9378016
+MD5sum: d054c8fe869284be615911219a53024a
+SHA1: 17b7311ea106b025906ae5d3e9995cbd7bfe785d
+SHA256: 91e3b109c47ec20f9b707aa12089b7564dbebe283a00cffc1487e77d56a106ce
+SHA512: 11b86e5d9ccba0941123effae9e6889d1f5f1600d16757a4118609af4d14234bce9dc695a85da58ef05e883d14ce2c0c2f94a12d8c5a9fb741fd7e948a67689b
+Description: Minecraft: Java Edition launcher for iOS, based on PojavLauncher Android.
+Name: PojavLauncher
+Depiction: https://doregon.github.io/cydia/depictions/?p=pojavlauncher
+
+Package: pojavlauncher
+Architecture: iphoneos-arm
+Version: 1.1
+Priority: optional
+Section: Games
+Maintainer: DuyKhanhTran
+Depends: openjdk-16-jre, firmware (>= 12.0)
+Conflicts: pojavlauncher-dev, pojavlauncher-zink
+Filename: ./debs/pojavlauncher_1.1_iphoneos-arm.deb
+Size: 6805220
+MD5sum: 1d31d89824089fd4eb01bcb1b00b842d
+SHA1: f908dac7f70d2a4c2410ff616f68c65a3f1b3acd
+SHA256: 7a25df1d7650ded0417315a11dbe9e82da6c5c8597522382238bc2268a4807a9
+SHA512: 6be5da53dcb86bb6162da080c08577c7ef6cd13c51491623ff884d4488879a97ec2c258530b42172486053f663b177a0a33acccbffced542aae5171be9a943ee
+Homepage: https://github.com/PojavLauncherTeam/PojavLauncher_iOS
+Description: Minecraft: Java Edition launcher for iOS, based on PojavLauncher Android.
+Depiction: https://doregon.github.io/cydia/depictions/?p=pojavlauncher
+Name: PojavLauncher
+
+Package: pojavlauncher
+Architecture: iphoneos-arm
+Version: 1.2
+Priority: optional
+Section: Games
+Maintainer: DuyKhanhTran
+Depends: openjdk-16-jre, firmware (>= 12.0)
+Conflicts: pojavlauncher-dev, pojavlauncher-zink
+Filename: ./debs/pojavlauncher_1.2_iphoneos-arm.deb
+Size: 6799456
+MD5sum: f437f7797efc993a56f82ed2ed6b1d76
+SHA1: 58739e22cdadcc289fa5167b00a6b88328958203
+SHA256: 57318c5947a9b2a2e8459346b8f114b8fd10c8bea6da0e5daaa1acef264a85f1
+SHA512: 8eddecf36528d2d7230e5e60fff90befcf4499d2df428a5b8de264ec392da0154bc8b9f7a0daea87d738404757aa915bf590038613fbbf6fb3a87b338e9c0dce
+Homepage: https://github.com/PojavLauncherTeam/PojavLauncher_iOS
+Description: Minecraft: Java Edition launcher for iOS, based on PojavLauncher Android.
+Name: PojavLauncher iOS
+Icon: https://repo.doregon.gq/images/icons/pojavlauncher_icon.png
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/pojavlauncher.json&name=PojavLauncher%20iOS&dev=PojavLauncherTeam&section=Games&icon=https://repo.doregon.gq/images/icons/pojavlauncher_icon.png
+SileoDepiction: https://repo.doregon.gq/depictions/natives/pojavlauncher.json
+

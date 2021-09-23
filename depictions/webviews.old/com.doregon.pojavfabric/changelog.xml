@@ -1,0 +1,14 @@
+<changelog>
+        <changes>
+		<version>1.16.5-3</version>
+		<change>fabric-loader-0.11.3-1.16.5 (fixed issue with file permissions)</change>
+	</changes>
+	<changes>
+		<version>1.16.5-2</version>
+		<change>fabric-loader-0.11.3-1.16.5 (fixed issue with file size, now requires that the vanilla client be installed)</change>
+	</changes>
+        <changes>
+		<version>1.16.5-1</version>
+		<change>fabric-loader-0.11.3-1.16.5</change>
+        </changes>
+</changelog>

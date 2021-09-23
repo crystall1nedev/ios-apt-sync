@@ -1,0 +1,23 @@
+<package>
+	<id>com.doregon.pojavfabric</id>
+	<name>PojavFabric</name>
+	<version>1.16.5-3</version>
+	<compatibility>
+		<firmware>
+			<miniOS>12.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>pojavlauncher OR pojavlauncher-dev</package>
+	</dependencies>
+	<shortDescription>Easily install Fabric on PojavLauncher</shortDescription>
+	<descriptionlist>
+		<description>This package installs Fabric into PojavLauncher, rather than having you type a long terminal command to do it!</description>
+	        <description>Requires that PojavLauncher be installed. To use, switch the Minecraft version to the text in the changelog.</description>
+	</descriptionlist>
+	<changelog>
+		<change>1.16.5-3</change>
+		<change>Fixed issue where the correct permissions were not being set</change>
+		<change></change>
+	</changelog>
+</package>

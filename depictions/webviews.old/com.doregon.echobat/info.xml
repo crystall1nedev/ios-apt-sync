@@ -1,0 +1,23 @@
+<package>
+	<id>com.doregon.echobat</id>
+	<name>EchoBat</name>
+	<version>1.0.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>10.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>iokittools</package>
+	</dependencies>
+	<shortDescription>Call out your battery over SSH!</shortDescription>
+	<descriptionlist>
+		<description>This tweak allows you to run a simple command to find out your battery info in the terminal.</description>
+	        <description>No options to configure, just run echobat in a terminal!</description>
+	</descriptionlist>
+	<changelog>
+		<change>Initial release</change>
+		<change>Uses ioreg to grep for capacity and cuts it down.</change>
+		<change></change>
+	</changelog>
+</package>

@@ -1,0 +1,6 @@
+<changelog>
+	<changes>
+		<version>16.0.0+git20201217.8383f41-2</version>
+		<change>JDK-8253816: Switch to Exec W^X mode after JNI DetachCurrentThread (#10)</change>
+	</changes>
+</changelog>

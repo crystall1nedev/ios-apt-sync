@@ -1,0 +1,25 @@
+{
+   "class":"FeaturedBannersView",
+   "itemSize":"{263, 148}",
+   "itemCornerRadius":10,
+   "banners":[
+      {
+         "url":"https://repo.doregon.gq/images/pojavlauncher-banner.png",
+         "title":"PojavLauncher (Dev)",
+         "package":"pojavlauncher-dev",
+         "hideShadow":true
+      },
+      {
+         "url":"https://repo.doregon.gq/images/overb0ard-banner.png",
+         "title":"overb0ard",
+         "package":"com.doregon.overb0ard",
+         "hideShadow":true
+      },
+      {
+         "url":"https://repo.doregon.gq/images/openjdk-8-banner.png",
+         "title":"OpenJDK 8 (JRE)",
+         "package":"openjdk-8-jre",
+         "hideShadow":true
+      },
+   ]
+}

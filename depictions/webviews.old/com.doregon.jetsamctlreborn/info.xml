@@ -1,0 +1,35 @@
+<package>
+	<id>com.doregon.jetsamctlreborn</id>
+	<name>jetsamctl reborn</name>
+	<version>0.2-1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>8.0</miniOS>
+		</firmware>
+	</compatibility>
+	<shortDescription>Bend Jetsam's memory limits to your will.</shortDescription>
+	<descriptionlist>
+		<description>This tweak allows you to control iOS's built-in memory limiter program.</description>
+	        <description>Helpful for apps and daemons that force quit due to Jetsam.</description>
+                <description> <![CDATA[
+		    Simple usage: (for most applications)<br/> 
+		    jetsamctl -l MEMORY_WANTED_IN_MB PROCESS_NAME<br/>
+                    </br>
+		    i.e. jetsamctl -l 1024 PojavLauncher</br>
+		    <br/>
+		    Take a look at the original creator's GitHub repository to learn more!
+		    ]]>
+		</description>
+                <description> <![CDATA[
+		    Originally created and abandoned by conradev, I've chosen to take up the</br>
+                    task of making this tool even better! Meet jetsamctl reborn.
+		    ]]>
+	        </description>    
+		<description>This is a dev preview.</description>
+    </descriptionlist>
+	<changelog>
+		<change>0.2-2</change>
+		<change>Works with Activator via command!</change>
+		<change></change>
+	</changelog>
+</package>

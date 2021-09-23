@@ -1,0 +1,21 @@
+<package>
+	<id>openjdk-16-jre</id>
+	<name>Java Runtime Environment 16</name>
+	<version>16.0.0+git20201217.8383f41-2</version>
+	<compatibility>
+		<firmware>
+			<miniOS>12.0</miniOS>
+		</firmware>
+	</compatibility>
+	<shortDescription>Run headless Java applications directly on your iDevice</shortDescription>
+	<descriptionlist>
+		<description>This program allows you to install the full JRE 16 onto your iDevice.</description>
+	        <description>No options to configure, just run /usr/lib/jvm/java-16-openjdk/bin/java in a terminal.</description>
+                <description>This was ported by openjdk and ProcursusTeam, although this release is slightly modified for use on non-Procursus jailbreaks. If you are using Chimera, Odyssey/Odysseyra1n, or Taurine, you should install the official package from Procursus (as it supports more features).</description>
+	</descriptionlist>
+	<changelog>
+		<change>16.0.0+git20201217.8383f41-2</change>
+		<change>JDK-8253816: Switch to Exec W^X mode after JNI DetachCurrentThread (#10)</change>
+		<change></change>
+	</changelog>
+</package>

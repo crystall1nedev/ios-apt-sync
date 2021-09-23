@@ -1,0 +1,115 @@
+{
+    "minVersion": "0.1",
+    "headerImage": "https://doregon.github.io/cydia/images/com.doregon.overb0ard_banner.png",
+    "tintColor": "#d11717",
+    "tabs": [
+        {
+            "tabname": "Details",
+            "views": [
+                {
+                    "title": "overb0ard",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                    "markdown": "## jetsam\r\n__noun__\r\n- unwanted material or goods that have been thrown overboard from a ship and washed ashore, especially material that has been discarded to lighten the vessel\r\n\r\n### Take back your memory!\r\nTrying to run UTM, PojavLauncher, or other heavy apps on your phone? Want to give a daemon a little bit more memory to work with? Maybe you just want to keep an app open in the background. __overb0ard__ is here to help. \r\n\r\nA continuation of conradev's jetsamctl cli tool, overb0ard gives you the ability to push your devices to the limits. Control your iDevice's RAM with ease and on any iOS device with iOS 6 and up.\r\n\r\n### So with this...\r\noverb0ard allows you to easily set memory limits for specific processes without permanent changes (methods like changing a .plist file were viable in the past but could cause instability). It's as simple as launching the app/process, typing the overb0ard command, and switching back and enjoying your raised memory limits!\r\n\r\n### Usage\r\nType `jetsamctl` into a terminal window to learn more about the commands. A sample command is shown below:\r\n\r\n`jetsamctl -l 2048 PojavLauncher`\r\n\r\n### A bit of backstory...\r\niOS and macOS share common programs, and one of the major ones is `jetsam`. Although you barely see jetsam on macOS, iOS has issues all over the place with memory limits--given that you're running on what's meant to be a quick and portable system. The simplified rundown of how jetsam works--gathered from Conrad Kramer's elegant presentation [on jetsam](https://www.youtube.com/watch?v=GqXMqn6MXrM)--is as follows:\r\n\r\n- jetsam constantly monitors every app and the amount of RAM available to the system.\r\n- If the RAM starts to get lower than jetsam likes, jetsam asks every process to relieve as much memory as possible. \r\n- Once done receiving memory back, jetsam checks to find out if it's enough. If so, that's good.\r\n- If not, however, jetsam kills the process using the most memory.",
+                    "useSpacing": true,
+                    "class": "DepictionMarkdownView"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "title": "Latest Version",
+                    "class": "DepictionHeaderView"
+                },
+                {
+                    "title": "Version",
+                    "text": "1.0.2",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Released",
+                    "text": "2021/05/17",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Price",
+                    "text": "Free",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Developer",
+                    "text": "Adam Tunnic",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Contact Support",
+                    "action": "https://github.com/Doregon/overb0ard",
+                    "class": "DepictionTableButtonView"
+                },
+                {
+                    "spacing": 16,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "spacing": 20,
+                    "class": "DepictionSpacerView"
+                }
+            ],
+            "class": "DepictionStackView"
+        },
+        {
+            "tabname": "Changelog",
+            "views": [
+                {
+                    "title": "1.0.3",
+                    "useBoldText": true,
+                    "useBottomMargin": true,
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                    "markdown": "More aesthetic updates and teaser option for persistence.",
+                    "useSpacing": false,
+                    "class": "DepictionMarkdownView"
+                },
+                {
+                    "title": "1.0.2",
+                    "useBoldText": true,
+                    "useBottomMargin": true,
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                    "markdown": "Maintain compatibility with iOS 6 and up, properly platformize and patch setuid(0) for iOS 11 and 12.",
+                    "useSpacing": false,
+                    "class": "DepictionMarkdownView"
+                },
+                {
+                    "title": "1.0.1",
+                    "useBoldText": true,
+                    "useBottomMargin": true,
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                    "markdown": "Minor aesthetic changes, as well as a new control file to fix jetsamctl conflicts.",
+                    "useSpacing": false,
+                    "class": "DepictionMarkdownView"
+                },
+                {
+                    "title": "1.0",
+                    "useBoldText": true,
+                    "useBottomMargin": true,
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                    "markdown": "### Initial release!\r\nsetuid() and setgid() to make it easier to run overb0ard from other applications. Some of you may notice that the command is still `jetsamctl`, and there's a reason for this: many have already been using conradev's jetsamctl package. To make it easier to switch over to overb0ard, for users and developers alike, overb0ard will still be using `jetsamctl` for the command. No need to make things harder with a complete rebranding :)",
+                    "useSpacing": false,
+                    "class": "DepictionMarkdownView"
+                }
+            ],
+            "class": "DepictionStackView"
+        }
+    ],
+    "class": "DepictionTabView"
+}

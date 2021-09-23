@@ -1,0 +1,30 @@
+<package>
+	<id>com.kramerapps.jetsamctl</id>
+	<name>conradev's jetsamctl</name>
+	<version>0.1-1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>8.0</miniOS>
+		</firmware>
+	</compatibility>
+	<shortDescription>Bend Jetsam's memory limits to your will.</shortDescription>
+	<descriptionlist>
+		<description>This tweak allows you to control iOS's built-in memory limiter program.</description>
+	        <description>Helpful for apps and daemons that force quit due to Jetsam.</description>
+                <description> <![CDATA[
+		    Simple usage: (for most applications)<br/> 
+		    jetsamctl -l MEMORY_WANTED_IN_MB PROCESS_NAME<br/>
+                    </br>
+		    i.e. jetsamctl -l 1024 PojavLauncher</br>
+		    <br/>
+		    Take a look at the original creator's GitHub repository to learn more!
+		    ]]>
+		    </description>    
+		<description>Originally created and abandoned by conradev.</description>
+    </descriptionlist>
+	<changelog>
+		<change>Initial release</change>
+		<change>Pulled 0.1-1 directly from the GitHub releases.</change>
+		<change></change>
+	</changelog>
+</package>

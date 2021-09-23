@@ -1,0 +1,69 @@
+Origin: Doregon's Repo
+Label: Doregon's Repo
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: Providing debs for all
+Date: Thu, 23 Sep 2021 15:09:21 +0000
+MD5Sum:
+ b805461f47bd48001ece5e63c793827b            63664 Packages
+ ed5c60199071bd244713c1145a9f28fa            11463 Packages.bz2
+ e800f875a486fc1a447cf1147b2642b4            12411 Packages.gz
+ 448b999a0d89a784ea83ab05b517fbeb            10767 Packages.lzma
+ 376a3c9c7897d573c42cc6b883a408a2            10868 Packages.xz
+ cafb7d7f707cca60b548f39c69e964ca            10880 Packages.zst
+ ca7c73672a6b56d82af3b9d6ab97d49c               38 Release
+ 2da4b84836e217c23149d6aaa4dd7083              519 macos/Packages
+ 86303e3b300164dced868fe09faadd0b              407 macos/Packages.bz2
+ 42cf0de8d28a90dcfe08d21ee86c8e4c              380 macos/Packages.gz
+ 79ccf87bec5a3fb93f3725eff0d50dfc              403 macos/Packages.lzma
+ ae5b260b5b5a773321f4cce95790a4ab              448 macos/Packages.xz
+ f0203163c72e55eb4e6348f138d7c76a              370 macos/Packages.zst
+ d940e8a63ac0413e5f2d8cead85f7f81              899 macos/Release
+SHA1:
+ b6279444677c8d56e1ad8cd031210a5cdf1c8ae2            63664 Packages
+ 1b82ddfdf01802632466f1a09e87519a338f367e            11463 Packages.bz2
+ 2e9744f3e16a58dd47c02684d5636818c6355038            12411 Packages.gz
+ c4cc4d848b2a43b4bd6995ea5163b01c5b0a8c4d            10767 Packages.lzma
+ 6d2b13628bd4659cf393fa4e29722cb912edd445            10868 Packages.xz
+ 7af6a54cd6bee65f7241794fe85bb6d3dd618a71            10880 Packages.zst
+ f6f2a5bae2f0bc80cc09b6e212b9251e0b699c94               38 Release
+ 91e4dd98e3cae3d3aa17463e942200f92a8bfd8e              519 macos/Packages
+ 339ff3bd2e72eb9c01c9d0987c00182a8df37585              407 macos/Packages.bz2
+ 2907f03c626b249412a2a94ed01c6f01a620e57e              380 macos/Packages.gz
+ 0c96e98813ec02970ef0d667f0f95aa48d71f74d              403 macos/Packages.lzma
+ 47d8176ed315a7f73afbf8182578abc6319406f6              448 macos/Packages.xz
+ 0353cee8629d805387d55f8744aedfe255af1c23              370 macos/Packages.zst
+ 47fd9edce3ae888430902ca2b3c555b141b1d1b2              899 macos/Release
+SHA256:
+ ab5f18ea8e85076591dc53166f5f9b9ed94ee22549c6581da624904d97cac5df            63664 Packages
+ c3b6b7fe9cd330a69b7b3837e60a35e5b020086e468850ee6abda0e5f73b8e92            11463 Packages.bz2
+ 0162a56c621a6e5691146255e599cefe267f216dc224e4d1ba2a2ccdaa206a07            12411 Packages.gz
+ 48bf550ad557e920153421c4d7a8f8f69ba5677008aa41ff8d48032507c52084            10767 Packages.lzma
+ d5ec48567e4f17c2de8b412752408b2a8c0ed67ca898b8fec8d2fe432ffc7ff9            10868 Packages.xz
+ 45599eeb52a72c3faeb45646cd8d90021c3652afc58f52e085ee9e86420dbb47            10880 Packages.zst
+ f0ec84384fbdddd491ea43df9185d41f0ea27a22ca21f76911f978cf513385f7               38 Release
+ f74ee3fc471afa9f839799addde2b7ad7f4390b0c8a3e96ca77fa57008656c89              519 macos/Packages
+ bb764f1bec37a4107cb1f63a867fdac5baeb6cfc2337d60741fa9e4998829d19              407 macos/Packages.bz2
+ 742edea3a0ee1b07e23fe1795483bc4017ac2828a98ec1bc3a77f22fc4789a36              380 macos/Packages.gz
+ 55e8bf8c4b1d6066dc2fd2c430d64d4a7bddd6b7b876b456051aa1d2880ab196              403 macos/Packages.lzma
+ 0863b13a524b77f44c4dba9de711a67abd219632621116534060fe5391ca5242              448 macos/Packages.xz
+ fdf80ea1895fd80918d607a19c8a47bd7a28ce93f8ba11d39e438728b9f8c410              370 macos/Packages.zst
+ 10a026f4581e0dd34144ba2e798b9256cadb8749004adc0047642bd845106acb              899 macos/Release
+SHA512:
+ eba91e647aaa9bf470542c3e69853d1ac2004d5799104d26bc6cf711d16c34612107553ebd251dabb9c7ac5137207a64f1099093a68deeedd7c59c5521fe02b6            63664 Packages
+ 3907f2e2e37de6d9c388e7af33c90a1647c9726992dfff2cb4dfe034ee4f801ea7d539cc40fa9f1e34dac441699207c5d55b075c2df028642dcfe1096b1a6cd7            11463 Packages.bz2
+ 3f1a3408fbd9015d3950d5a62474ef78ac258772c7aa58516a407ca038c7cdf634c1cea0524a805ce0360cf11a801cfb381a7f527a2988dcff74fb9a80cc66ce            12411 Packages.gz
+ 6f1eaccadd897d26877ef3d50c0383047c526462d410093bd4e05eb6b44af34135524a5d03b4a229828ecdf7a4f7c617b335dfd519428112a853ae98c4de2289            10767 Packages.lzma
+ 72b2dbfbafd01636ac1d7e840ecff5829db30f2a54eae676e2f137fdcfa90565d0e421bb384a9fac8872b74135ec519fcb2bf1ea83dd763966e5fa57d2338d84            10868 Packages.xz
+ ebb21266df6847a27422ed7af2fe0878a932794cedb0ccc788ed297f210bee5e59c940f6db518d3e26326bd63d4b91da13b59159b4c373dc4a2a8b38f858ee8d            10880 Packages.zst
+ 40237c04b21ee0d878a141458764c86e35fa53ab968bdb35fc9ada2d54d4818108def6ee18403ae67461fbd73c017226864cbc2cef273735e4e3f4d594a3c1c9               38 Release
+ 32855ec8f7d5998d8789e233ae55eb4f27f610e74af2e72972f6c6236e2b55cf159c9b68af02e4fa4e5dcbe5b7baec2e49db5a3ec34ea4f59ece2038a298186c              519 macos/Packages
+ 249648d17dea3e00f1f820b03bab22388c14b45e1b923cc5c68e03b0923b486cb8682de3597a22ddf9882fbafd05efc0207909dbdcb2d8b1c763c4342e122d6f              407 macos/Packages.bz2
+ 9e291cac013c6626981ec3f6b5c463ff8def73f257a43516294c3b92f6df064739cd87a889d7375bf41d47619859591f66c87167720396d51a497360f8b68cac              380 macos/Packages.gz
+ 7b01a8f6951a910284e6a94f8ee084c11a3204bb0bd7ffe63f43d2b9a8a8ffb202d8e6d54fa5a6f2afd7e7cc40588f11c916f305852eb3222c881d5ef8d7db5a              403 macos/Packages.lzma
+ 5a609106694630e130e9309cee7ee197ed583f6a015d2116381cc0c16c6ae85979aa5c9028145f8c51688a010ca312f433036b1b86db994bc775fb8887bfce92              448 macos/Packages.xz
+ 89e4eb8c744cb502b805424f255feb2cb1eba58ba4610f10c3afe018a6af84fe1fbbb5a8ebe07e9c8be176307a7f4e284305b08efd44fd85cd86843410d5b597              370 macos/Packages.zst
+ 67f8a4f5992b40618cf8c5979f7554fbc4b513fb0a11a0f12a23fa2de1fbfae95f74cf47b69f5e2efd9d3e2bd04a76c92b3c98d3122a8a13e839141d2759f4c2              899 macos/Release

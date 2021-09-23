@@ -1,0 +1,25 @@
+<package>
+	<id>com.doregon.pojavoptimize</id>
+	<name>PojavOptimize</name>
+	<version>1.16.5-2</version>
+	<compatibility>
+		<firmware>
+			<miniOS>12.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>pojavlauncher OR pojavlauncher-dev</package>
+		<package>com.doregon.pojavfabric</package>
+	</dependencies>
+	<shortDescription>Minecraft: Java Edition, optimized for iOS.</shortDescription>
+	<descriptionlist>
+		<description>A collection of mods for PojavLauncher to make it go brrrr (from 1 to 40 FPS!)</description>
+	        <description>Requires that PojavLauncher be installed with Fabric.</description>
+                <description>Credit to Chunk_Norris_ for assembling and helping with this package!</description>
+	</descriptionlist>
+	<changelog>
+		<change>1.16.5-2</change>
+		<change>Fixed filesystem permissions</change>
+		<change></change>
+	</changelog>
+</package>
