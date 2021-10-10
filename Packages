@@ -1142,6 +1142,116 @@ Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq
 SileoDepiction: https://repo.doregon.gq/depictions/natives/pojavlauncher-dev.json
 Icon: https://repo.doregon.gq/images/icons/pojavlauncher_icon.png
 
+Package: pojavlauncher-dev
+Architecture: iphoneos-arm
+Version: 2.0~alpha2
+Priority: optional
+Section: Games
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: openjdk-8-jre | openjdk-16-jre | openjdk-8-jdk | openjdk-16-jdk, firmware (>= 12.0)
+Conflicts: pojavlauncher, pojavlauncher-zink
+Filename: ./debs/pojavlauncher-dev_2.0~alpha2_iphoneos-arm.deb
+Size: 17390472
+MD5sum: 018f75ef5d8ee189232467375d21d11e
+SHA1: 244f47b9e625153ca5d227c6f2a5b0f18ec56c84
+SHA256: 0ae92aa3771fd4716ca8ca0be1cd3d6d730c351725936840e847d08d5f064e9a
+SHA512: 33e4004273f5a830b67ee998230dfacd7af541fb7b6a19135d3fb987d77981c3eef26f80cf213cf8d5d5f55a8f136937adb23a9f0ff4f1e26d348eabe3a2be7d
+Homepage: https://github.com/PojavLauncherTeam/PojavLauncher_iOS
+Description: Minecraft: Java Edition launcher for iOS, based on PojavLauncher Android.
+Name: PojavLauncher iOS (Dev)
+Author: DuyKhanhTran
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/pojavlauncher-dev.json&name=PojavLauncher%20iOS%28Dev%29&dev=PojavLauncherTeam&section=Games&icon=https://doregon.github.io/cydia/images/icons/pojavlauncher_icon.png
+SileoDepiction: https://repo.doregon.gq/depictions/natives/pojavlauncher-dev.json
+Icon: https://repo.doregon.gq/images/icons/pojavlauncher_icon.png
+
+Package: pojavlauncher-dev
+Architecture: iphoneos-arm
+Version: 2.0~alpha3
+Priority: optional
+Section: Games
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: openjdk-8-jre | openjdk-16-jre | openjdk-8-jdk | openjdk-16-jdk, firmware (>= 12.0)
+Conflicts: pojavlauncher, pojavlauncher-zink
+Filename: ./debs/pojavlauncher-dev_2.0~alpha3_iphoneos-arm.deb
+Size: 17412688
+MD5sum: 69302fcb9abd5d89de11a58335b1a125
+SHA1: 0cccea89c10f9e1b28b9e4e99be653134927d7b8
+SHA256: ccba39d9bf94b9cf0986a586509d4394705de81e70a16671f7a56cd64c3adf16
+SHA512: 2f78867a5c47f0489d24234f728d47c2bac0dee5a7311e796b220e78e0141722ff04dd0576be6a4617814f9634226579775d6d6707863bd13a52083e578bd28a
+Homepage: https://github.com/PojavLauncherTeam/PojavLauncher_iOS
+Description: Minecraft: Java Edition launcher for iOS, based on PojavLauncher Android.
+Name: PojavLauncher iOS (Dev)
+Author: DuyKhanhTran
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/pojavlauncher-dev.json&name=PojavLauncher%20iOS%28Dev%29&dev=PojavLauncherTeam&section=Games&icon=https://doregon.github.io/cydia/images/icons/pojavlauncher_icon.png
+SileoDepiction: https://repo.doregon.gq/depictions/natives/pojavlauncher-dev.json
+Icon: https://repo.doregon.gq/images/icons/pojavlauncher_icon.png
+
+Package: pojavlauncher-dev
+Architecture: iphoneos-arm
+Version: 2.0~alpha4
+Priority: optional
+Section: Games
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: openjdk-8-jre | openjdk-16-jre | openjdk-8-jdk | openjdk-16-jdk, firmware (>= 12.0)
+Conflicts: pojavlauncher, pojavlauncher-zink
+Filename: ./debs/pojavlauncher-dev_2.0~alpha4_iphoneos-arm.deb
+Size: 17406296
+MD5sum: 3401d8f5ee54cc0345cf220cf0374929
+SHA1: f7d5ec8088e32956fa171a450b9ee3157dc65bda
+SHA256: a12afa9d7e450be7d90a3b3489b2dc0338fbe84b0eedbed207645c40494fd479
+SHA512: 59d8959a68cd9f315538a1c28abc21895e02da8d7e20f69ad780b25bfa9acfaf15a59c226f2b5708b823f41b16d9e621d8050fef5b790fa6c14963280060b058
+Homepage: https://github.com/PojavLauncherTeam/PojavLauncher_iOS
+Description: Minecraft: Java Edition launcher for iOS, based on PojavLauncher Android.
+Name: PojavLauncher iOS (Dev)
+Author: DuyKhanhTran
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/pojavlauncher-dev.json&name=PojavLauncher%20iOS%28Dev%29&dev=PojavLauncherTeam&section=Games&icon=https://doregon.github.io/cydia/images/icons/pojavlauncher_icon.png
+SileoDepiction: https://repo.doregon.gq/depictions/natives/pojavlauncher-dev.json
+Icon: https://repo.doregon.gq/images/icons/pojavlauncher_icon.png
+
+Package: pojavlauncher-dev
+Architecture: iphoneos-arm
+Version: 2.0~alpha5
+Priority: optional
+Section: Games
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: openjdk-8-jre | openjdk-16-jre | openjdk-8-jdk | openjdk-16-jdk, firmware (>= 12.0)
+Conflicts: pojavlauncher, pojavlauncher-zink
+Filename: ./debs/pojavlauncher-dev_2.0~alpha5_iphoneos-arm.deb
+Size: 17401772
+MD5sum: 26c8c22746dc79fe557a138b3174ae13
+SHA1: 91fb9d497d2166f5c0ba3114ee90a64ebe52ee86
+SHA256: 4e53668f62aff1412019756ba98e5a956810dba425c24eabc2f5859825379ff5
+SHA512: d5a9d2f8da9ceeeac5f6f0690b7a23263097fadb9a51d4ff0e5b838667e0a34b879a1a4a26407b4d02990fa6828aa24c02faaebffc606cb9e0d542c99cb48778
+Homepage: https://github.com/PojavLauncherTeam/PojavLauncher_iOS
+Description: Minecraft: Java Edition launcher for iOS, based on PojavLauncher Android.
+Name: PojavLauncher iOS (Dev)
+Author: DuyKhanhTran
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/pojavlauncher-dev.json&name=PojavLauncher%20iOS%28Dev%29&dev=PojavLauncherTeam&section=Games&icon=https://doregon.github.io/cydia/images/icons/pojavlauncher_icon.png
+SileoDepiction: https://repo.doregon.gq/depictions/natives/pojavlauncher-dev.json
+Icon: https://repo.doregon.gq/images/icons/pojavlauncher_icon.png
+
+Package: pojavlauncher-dev
+Architecture: iphoneos-arm
+Version: 2.0~alpha6
+Priority: optional
+Section: Games
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: openjdk-8-jre | openjdk-16-jre | openjdk-8-jdk | openjdk-16-jdk, firmware (>= 12.0)
+Conflicts: pojavlauncher, pojavlauncher-zink
+Filename: ./debs/pojavlauncher-dev_2.0~alpha6_iphoneos-arm.deb
+Size: 17401396
+MD5sum: ee619c835fbd6979bd6172c2cc9ee619
+SHA1: a088cbb8ae5d13a3fcd75b53f9599de43e917158
+SHA256: b52f046e577225e2afb81a7ae57566a765f4a5846c5a66f2c3589f39db4d2d8e
+SHA512: daa5a91b9e88c46e291c37dda2365153c1ff8699f82e965cac907597b0a3f28c453df1c07df0cde3e4e169701763e4cc9bae59101a86cfe9ec6be75315b7632c
+Homepage: https://github.com/PojavLauncherTeam/PojavLauncher_iOS
+Description: Minecraft: Java Edition launcher for iOS, based on PojavLauncher Android.
+Name: PojavLauncher iOS (Dev)
+Author: DuyKhanhTran
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/pojavlauncher-dev.json&name=PojavLauncher%20iOS%28Dev%29&dev=PojavLauncherTeam&section=Games&icon=https://doregon.github.io/cydia/images/icons/pojavlauncher_icon.png
+SileoDepiction: https://repo.doregon.gq/depictions/natives/pojavlauncher-dev.json
+Icon: https://repo.doregon.gq/images/icons/pojavlauncher_icon.png
+
 Package: pojavlauncher
 Architecture: iphoneos-arm
 Version: 1.0

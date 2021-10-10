@@ -1,4 +1,4 @@
 13506dd84a6ba373d5fa6d5273771b8467ec4b1b - openjdk-8-jdk
 13506dd84a6ba373d5fa6d5273771b8467ec4b1b - openjdk-8-jre
-8f0a7a5cabf9f7ead456549a329309858cfbcfc1 - pojavlauncher-dev
+b353a69421421a60277af52b81ae859d34067e47 - pojavlauncher-dev
 14c756987d4c9f797e22b0c784627d7030e238e7 - pojavlauncher
