@@ -261,10 +261,10 @@ Conflicts: java-8-openjdk, openjdk-8-jre
 Replaces: java-8-openjdk
 Filename: ./debs/openjdk-8-jdk_1.8.0~292b10-build12_iphoneos-arm.deb
 Size: 83765068
-MD5sum: 415222f642e3a7f39f9b793e0711139b
-SHA1: ff6a5f8b4613a0f7c698af32f3eec5e9165c6576
-SHA256: 91e06f82d5ff1778ae452255bc2b31567408b157aefe6ae491cbe7648bae779a
-SHA512: 5c97dee46bf52b2ef9bef7301fddfab19f47ac58f72c7f3a7ee4cd72a64246f9fd0ea2e2232cecfd17bfef0f6cf87649fecc005142b3fd13b67c2cbaa28f1df6
+MD5sum: 32badb6850d8b5515abf58a3992ac976
+SHA1: 11ac8c13475ce8173ed60b6eb33a71b709ce2fcf
+SHA256: 60e15703f922f314e6598b87dcf2d3bbb2656cc1eacb69918ac34fe2cf393a19
+SHA512: 778eb450ceb74cc7f68a4be7bc3ec5146b7d5a6bd05a1a75fd22325c44fb22d2143da75924ddb3e36df15f616034f84cb68eddec41d3aa0006741ebd2f858f53
 Homepage: https://www.azul.com
 Description: OpenJDK 8 Runtime Environment, using HotSpot JIT runtime, from Azul's Runtime.
   This package includes developer tools to build and test your Java 8 applications directly on iOS.
@@ -1244,6 +1244,50 @@ MD5sum: ee619c835fbd6979bd6172c2cc9ee619
 SHA1: a088cbb8ae5d13a3fcd75b53f9599de43e917158
 SHA256: b52f046e577225e2afb81a7ae57566a765f4a5846c5a66f2c3589f39db4d2d8e
 SHA512: daa5a91b9e88c46e291c37dda2365153c1ff8699f82e965cac907597b0a3f28c453df1c07df0cde3e4e169701763e4cc9bae59101a86cfe9ec6be75315b7632c
+Homepage: https://github.com/PojavLauncherTeam/PojavLauncher_iOS
+Description: Minecraft: Java Edition launcher for iOS, based on PojavLauncher Android.
+Name: PojavLauncher iOS (Dev)
+Author: DuyKhanhTran
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/pojavlauncher-dev.json&name=PojavLauncher%20iOS%28Dev%29&dev=PojavLauncherTeam&section=Games&icon=https://doregon.github.io/cydia/images/icons/pojavlauncher_icon.png
+SileoDepiction: https://repo.doregon.gq/depictions/natives/pojavlauncher-dev.json
+Icon: https://repo.doregon.gq/images/icons/pojavlauncher_icon.png
+
+Package: pojavlauncher-dev
+Architecture: iphoneos-arm
+Version: 2.0~alpha7
+Priority: optional
+Section: Games
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: openjdk-8-jre | openjdk-16-jre | openjdk-8-jdk | openjdk-16-jdk, firmware (>= 12.0)
+Conflicts: pojavlauncher, pojavlauncher-zink
+Filename: ./debs/pojavlauncher-dev_2.0~alpha7_iphoneos-arm.deb
+Size: 17430100
+MD5sum: d63c1c3b7d6b65a52500c10b51f97373
+SHA1: e09bf3a8d59b54e83473fbc7ef8beacbc1883052
+SHA256: 55791653b44e41e1c94f20e101153ff41da06774807433671ffa3aee4214a76f
+SHA512: 6abbdc86d24991835d58ade476b353747e9792da6a4e4bdc776d01240f08ffd55d9cd858fb05383fc9b2efd7cc4030378412f4127f2117b818ec6927d099f4f3
+Homepage: https://github.com/PojavLauncherTeam/PojavLauncher_iOS
+Description: Minecraft: Java Edition launcher for iOS, based on PojavLauncher Android.
+Name: PojavLauncher iOS (Dev)
+Author: DuyKhanhTran
+Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/pojavlauncher-dev.json&name=PojavLauncher%20iOS%28Dev%29&dev=PojavLauncherTeam&section=Games&icon=https://doregon.github.io/cydia/images/icons/pojavlauncher_icon.png
+SileoDepiction: https://repo.doregon.gq/depictions/natives/pojavlauncher-dev.json
+Icon: https://repo.doregon.gq/images/icons/pojavlauncher_icon.png
+
+Package: pojavlauncher-dev
+Architecture: iphoneos-arm
+Version: 2.0~alpha8
+Priority: optional
+Section: Games
+Maintainer: PojavLauncherTeam <https://discord.gg/6RpEJda>
+Depends: openjdk-8-jre | openjdk-16-jre | openjdk-8-jdk | openjdk-16-jdk, firmware (>= 12.0)
+Conflicts: pojavlauncher, pojavlauncher-zink
+Filename: ./debs/pojavlauncher-dev_2.0~alpha8_iphoneos-arm.deb
+Size: 17422460
+MD5sum: d48db7c1ffd00a61a7d8d6fcc9a66146
+SHA1: 5266330cd81b2c7eb51a644b8d0cececa8c1ea27
+SHA256: 2a1f511ff13a9cc5cb845637d9bfdad7ad9fb2a9dfe845cc69cca24fcb6d3844
+SHA512: 6933a04c47678ddaadcbfb1beb0761ac4353aaccf2483dc7e38e0434ec7a5825b0b3a828d1972d17e966b6c2294de8dc6f73f7080d9276066bd5803099b03ada
 Homepage: https://github.com/PojavLauncherTeam/PojavLauncher_iOS
 Description: Minecraft: Java Edition launcher for iOS, based on PojavLauncher Android.
 Name: PojavLauncher iOS (Dev)
