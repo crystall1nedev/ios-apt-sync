@@ -18,7 +18,7 @@ clean:
 		printf "Nothing to clean."; \
 	fi
 	
-setup:
+setup: clean
 	if [[ -d $(TEMPDIR) ]]; then \
 		printf "Using existing temp directory."; \
 	else \
@@ -29,20 +29,17 @@ setup:
 pojavlauncher-release: setup
 	LOCALSHA=$$(cat $(WORKINGDIR)/resource-shas.txt | grep -w ".* pojavlauncher$$" | cut -b 1-40); \
 	REMOTESHA=$$(git ls-remote https://github.com/PojavLauncherTeam/PojavLauncher_iOS | grep refs/tags | sort -t/ -k2 -r | $(SED) '1d' | $(SED) '2p' | $(SED) '2,1000d' | cut -b 1-40); \
+	DOWNURL=$$(curl --netrc-file /Library/WebServer/netrc -H "Accept: application/vnd.github.v3+json" -s https://api.github.com/repos/PojavLauncherTeam/PojavLauncher_iOS/releases | jq '.[] | .assets[] | select(.name | startswith("net.kdt.pojavlauncher.release_")) | .browser_download_url' | gsed '2,1000d' | gsed 's/"//' | gsed 's/"[^"]*$$//'); \
+	DOWNNAME=$$(curl --netrc-file /Library/WebServer/netrc -H "Accept: application/vnd.github.v3+json" -s https://api.github.com/repos/PojavLauncherTeam/PojavLauncher_iOS/releases | jq '.[] | .assets[] | select(.name | startswith("net.kdt.pojavlauncher.release_")) | .name' | $(SED) '2,1000d' | gsed 's/.$$//' | gsed 's/"//'); \
+        ROOTDOWNURL=$$(curl --netrc-file /Library/WebServer/netrc -H "Accept: application/vnd.github.v3+json" -s https://api.github.com/repos/PojavLauncherTeam/PojavLauncher_iOS/releases | jq '.[] | .assets[] | select(.name | startswith("net.kdt.pojavlauncher.release-rootless_")) | .browser_download_url' | gsed '2,1000d' | gsed 's/"//' | gsed 's/"[^"]*$$//'); \
+	ROOTDOWNNAME=$$(curl --netrc-file /Library/WebServer/netrc -H "Accept: application/vnd.github.v3+json" -s https://api.github.com/repos/PojavLauncherTeam/PojavLauncher_iOS/releases | jq '.[] | .assets[] | select(.name | startswith("net.kdt.pojavlauncher.release-rootless_")) | .name' | $(SED) '2,1000d' | gsed 's/.$$//' | gsed 's/"//'); \
 	if [[ $$REMOTESHA != $$LOCALSHA ]]; then \
 		cd $(TEMPDIR); \
-		wget 'http://github.com/PojavLauncherTeam/PojavLauncher_iOS/releases/latest/download/pojavlauncher_iphoneos-arm.deb'; \
-		dpkg-deb --raw-extract pojavlauncher_iphoneos-arm.deb pojavlauncher_iphoneos-arm; \
-		VERSION=$$(cat pojavlauncher_iphoneos-arm/DEBIAN/control | grep Version | cut -b 10-68); \
-		echo "Name: PojavLauncher iOS" >> pojavlauncher_iphoneos-arm/DEBIAN/control; \
-		echo "Icon: https://repo.doregon.gq/images/icons/pojavlauncher_icon.png" >> pojavlauncher_iphoneos-arm/DEBIAN/control; \
-		echo "Depiction: https://doregon.github.io/json-webviews/?json=https://repo.doregon.gq/depictions/natives/pojavlauncher.json&name=PojavLauncher%20iOS&dev=PojavLauncherTeam&section=Games&icon=https://repo.doregon.gq/images/icons/pojavlauncher_icon.png" >> pojavlauncher_iphoneos-arm/DEBIAN/control; \
-		echo "SileoDepiction: https://repo.doregon.gq/depictions/natives/pojavlauncher.json" >> pojavlauncher_iphoneos-arm/DEBIAN/control; \
-		dpkg-deb -b pojavlauncher_iphoneos-arm; \
-		mv pojavlauncher_iphoneos-arm.deb $(WORKINGDIR)/debs/pojavlauncher_"$$VERSION"_iphoneos-arm.deb; \
-		rm -rf "PojavLauncher deb.zip"; \
+		curl -o $$DOWNNAME --netrc-file /Library/WebServer/netrc -Ls $$DOWNURL; \
+                curl -o $$ROOTDOWNNAME --netrc-file /Library/WebServer/netrc -Ls $$ROOTDOWNURL; \
+		mv net.kdt.pojavlauncher.release*.deb ..; \
 		echo "$$REMOTESHA - pojavlauncher" > $(WORKINGDIR)/resource-shas.txt.pojavlauncher-release; \
-		printf "[PojavLauncher iOS] Successfully updated to $$VERSION\n\n"; \
+		printf "[PojavLauncher iOS] Successfully updated to the newest version\n\n"; \
 	else \
 		printf "[PojavLauncher iOS] There's nothing to do, as this package is already the latest version\n\n"; \
 		echo "$$LOCALSHA - pojavlauncher" > $(WORKINGDIR)/resource-shas.txt.pojavlauncher-release; \
@@ -51,35 +48,37 @@ pojavlauncher-release: setup
 pojavlauncher-dev: setup
 	REMOTESHA=$$(git ls-remote https://github.com/PojavLauncherTeam/PojavLauncher_iOS | grep refs/heads/main | cut -b 1-40); \
 	LOCALSHA=$$(cat $(WORKINGDIR)/resource-shas.txt | grep pojavlauncher-dev | cut -b 1-40); \
-	DOWNURL=$$(curl -H "Accept: application/vnd.github.v3+json" -s https://api.github.com/repos/PojavLauncherTeam/PojavLauncher_iOS/actions/artifacts | jq '.artifacts[].archive_download_url' | $(SED) '2,1000d' | $(SED) 's/"//' | $(SED) 's/"[^"]*$$//'); \
+	DOWNURLold=$$(curl --netrc-file /Library/WebServer/netrc -H "Accept: application/vnd.github.v3+json" -s https://api.github.com/repos/PojavLauncherTeam/PojavLauncher_iOS/actions/artifacts | jq '.artifacts[] | select(.name=="net.kdt.pojavlauncher.development_iphoneos-arm.deb") | .archive_download_url' | gsed '2,1000d' | gsed 's/"//'); \
+	DOWNURL=https://nightly.link/PojavLauncherTeam/PojavLauncher_iOS/workflows/development/main/net.kdt.pojavlauncher.development_iphoneos-arm.deb.zip; \
+	DOWNNAME=$$(curl --netrc-file /Library/WebServer/netrc -H "Accept: application/vnd.github.v3+json" -s https://api.github.com/repos/PojavLauncherTeam/PojavLauncher_iOS/actions/artifacts | jq '.artifacts[] | select(.name=="net.kdt.pojavlauncher.development_iphoneos-arm.deb") | .name' | $(SED) '2,1000d' | gsed 's/.$$//' | gsed 's/"//'); \
+	ROOTDOWNURLold=$$(curl --netrc-file /Library/WebServer/netrc -H "Accept: application/vnd.github.v3+json" -s https://api.github.com/repos/PojavLauncherTeam/PojavLauncher_iOS/actions/artifacts | jq '.artifacts[] | select(.name=="net.kdt.pojavlauncher.development-rootless_iphoneos-arm.deb") | .archive_download_url' | gsed '2,1000d' | gsed 's/"//'); \
+	ROOTDOWNURL=https://nightly.link/PojavLauncherTeam/PojavLauncher_iOS/workflows/development/main/net.kdt.pojavlauncher.development-rootless_iphoneos-arm.deb.zip; \
+	ROOTDOWNNAME=$$(curl --netrc-file /Library/WebServer/netrc -H "Accept: application/vnd.github.v3+json" -s https://api.github.com/repos/PojavLauncherTeam/PojavLauncher_iOS/actions/artifacts | jq '.artifacts[] | select(.name=="net.kdt.pojavlauncher.development-rootless_iphoneos-arm.deb") | .name' | $(SED) '2,1000d' | gsed 's/.$$//' | gsed 's/"//'); \
 	if [[ $$REMOTESHA != $$LOCALSHA ]]; then \
 		if [[ "$$DOWNURL" != "" ]]; then \
 			cd $(TEMPDIR); \
-			curl -o pojavlauncher-dev.zip --netrc-file /Library/WebServer/netrc -Ls $$DOWNURL; \
-			unzip 'pojavlauncher-dev.zip'; \
-			dpkg-deb --raw-extract pojavlauncher_iphoneos-arm.deb pojavlauncher-dev_iphoneos-arm; \
-			rm -rfv pojavlauncher_iphoneos-arm.deb; \
-			$(SED) -i "1s/.*/Package: pojavlauncher-dev/" pojavlauncher-dev_iphoneos-arm/DEBIAN/control; \
-			$(SED) -i "2s/.*/Name: PojavLauncher iOS (Dev)/" pojavlauncher-dev_iphoneos-arm/DEBIAN/control; \
-			$(SED) -i "8s/.*/Conflicts: pojavlauncher, pojavlauncher-zink/" pojavlauncher-dev_iphoneos-arm/DEBIAN/control; \
-			$(SED) -i "13s/pojavlauncher.json/pojavlauncher-dev.json/" pojavlauncher-dev_iphoneos-arm/DEBIAN/control; \
-			$(SED) -i "13s/\&name=PojavLauncher%20iOS/\&name=PojavLauncher%20iOS%28Dev%29/" pojavlauncher-dev_iphoneos-arm/DEBIAN/control; \
-			$(SED) -i "14s/pojavlauncher.json/pojavlauncher-dev.json/" pojavlauncher-dev_iphoneos-arm/DEBIAN/control; \
-			$(SED) -i "14s/\&name=PojavLauncher%20iOS/\&name=PojavLauncher%20iOS%28Dev%29/" pojavlauncher-dev_iphoneos-arm/DEBIAN/control; \
-			echo "Icon: https://repo.doregon.gq/images/icons/pojavlauncher_icon.png" >> pojavlauncher-dev_iphoneos-arm/DEBIAN/control; \
-			VERSION=$$(cat pojavlauncher-dev_iphoneos-arm/DEBIAN/control | grep Version | cut -b 10-68); \
+			curl -o $$DOWNNAME.zip --netrc-file /Library/WebServer/netrc -Ls $$DOWNURL; \
+        	        curl -o $$ROOTDOWNNAME.zip --netrc-file /Library/WebServer/netrc -Ls $$ROOTDOWNURL; \
+			unzip $$DOWNNAME.zip; \
+			unzip $$ROOTDOWNNAME.zip; \
+			VERSION=$$(curl -ss https://raw.githubusercontent.com/PojavLauncherTeam/PojavLauncher_iOS/main/DEBIAN/control.development | grep Version | cut -b 10-68); \
 			CUTVER=$$(echo $$VERSION | $(SED) 's/[^0-9]*//g'); \
                         if [[ $$(ls -l $(WORKINGDIR)/debs | grep pojavlauncher-dev_ | cut -b 52-98 | $(SED) 's/[^0-9]*//g' | sort -Vr | grep "^$$CUTVER" | $(SED) '1p' | $(SED) '2,1000d' | cut -b 3-5) != '' ]]; then \
 				REVISION=$$(expr $$(ls -l $(WORKINGDIR)/debs | grep pojavlauncher-dev_ | cut -b 52-98 | $(SED) 's/[^0-9]*//g' | sort -Vr | grep "^$$CUTVER" | $(SED) '1p' | $(SED) '2,1000d' | cut -b 3-5) + 1); \
 			else \
 				REVISION=1; \
 			fi; \
-			$(SED) -i "6s/.*/Version: $$VERSION~alpha$$REVISION/" pojavlauncher-dev_iphoneos-arm/DEBIAN/control; \
-			dpkg-deb -b pojavlauncher-dev_iphoneos-arm; \
-			mv pojavlauncher-dev_iphoneos-arm.deb $(WORKINGDIR)/debs/pojavlauncher-dev_"$$VERSION"~alpha"$$REVISION"_iphoneos-arm.deb; \
-			rm -rf "pojavlauncher-dev.zip"; \
+			dpkg-deb --raw-extract net.kdt.pojavlauncher.development_"$$VERSION"_iphoneos-arm.deb net.kdt.pojavlauncher.development_"$$VERSION"~beta"$$REVISION"_iphoneos-arm; \
+			dpkg-deb --raw-extract net.kdt.pojavlauncher.development-rootless_"$$VERSION"_iphoneos-arm64.deb net.kdt.pojavlauncher.development-rootless_"$$VERSION"~beta"$$REVISION"_iphoneos-arm64; \
+			$(SED) -i "6s/.*/Version: $$VERSION~beta$$REVISION/" net.kdt.pojavlauncher.development-rootless\_"$$VERSION"~beta"$$REVISION"_iphoneos-arm64/DEBIAN/control; \
+			$(SED) -i "6s/.*/Version: $$VERSION~beta$$REVISION/" net.kdt.pojavlauncher.development\_"$$VERSION"~beta"$$REVISION"_iphoneos-arm/DEBIAN/control;\
+			dpkg-deb -b net.kdt.pojavlauncher.development_"$$VERSION"~beta"$$REVISION"_iphoneos-arm; \
+			dpkg-deb -b net.kdt.pojavlauncher.development-rootless_"$$VERSION"~beta"$$REVISION"_iphoneos-arm64; \
+			mv net.kdt.pojavlauncher.development_"$$VERSION"~beta"$$REVISION"_iphoneos-arm.deb ..; \
+			mv net.kdt.pojavlauncher.development-rootless_"$$VERSION"~beta"$$REVISION"_iphoneos-arm64.deb ..;\
+			rm -rf $$DOWNNAME.zip $$ROOTDOWNNAME.zip $(TEMPDIR)/*.deb; \
 			echo "$$REMOTESHA - pojavlauncher-dev" > $(WORKINGDIR)/resource-shas.txt.pojavlauncher-dev; \
-			printf "[PojavLauncher iOS (Dev)] Successfully updated to $$VERSION~alpha$$REVISION\n\n"; \
+			printf "[PojavLauncher iOS (Dev)] Successfully updated to $$VERSION~beta$$REVISION\n\n"; \
 		else \
 			printf "[PojavLauncher iOS (Dev)] Artifact not found, skipping update\n\n"; \
 			echo "$$LOCALSHA - pojavlauncher-dev" > $(WORKINGDIR)/resource-shas.txt.pojavlauncher-dev; \
