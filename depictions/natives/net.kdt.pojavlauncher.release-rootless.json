@@ -1,0 +1,100 @@
+{
+    "minVersion": "0.1",
+    "headerImage": "https://repo.doregon.gq/images/pojavlauncher_banner.png",
+    "tintColor": "#735b0d",
+    "tabs": [
+        {
+            "tabname": "Details",
+            "views": [
+                {
+                    "title": "PojavLauncher",
+                    "useBoldText": true,
+                    "useBottomMargin": false,
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                    "itemCornerRadius": 6,
+                    "itemSize": "{160, 275.41333333333336}",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "The main menu.",
+                            "url": "https://repo.doregon.gq/images/pojavlauncher_mainmenu.png",
+                            "fullSizeURL": "https://repo.doregon.gq/images/pojavlauncher_mainmenu.png"
+                        },
+                        {
+                            "accessibilityText": "A test with Doregon's Internal Server.",
+                            "url": "https://repo.doregon.gq/images/pojavlauncher_doregieserv.png",
+                            "fullSizeURL": "https://repo.doregon.gq/images/pojavlauncher_doregieserv.png"
+                        }
+                    ],
+                    "class": "DepictionScreenshotsView"
+                },
+                {
+
+                    "markdown": "## Minecraft: Java Edition comes to iOS.\r\nBased off of the Android port of the same name, PojavLauncher brings the comforts of Java Edition to the portability of your iDevices.\r\n### Your favorite worlds.\r\n__PojavLauncher is straight up Java Edition__--meaning that your existing Java worlds will work perfectly with it! Bring them over and easily put them in place and forget.\r\n### Mods? Shaders? Welcome.\r\nPojavLauncher supports (some) shaders and many, many mods. With baked in Forge, OptiFine, and Fabric 1.16.5 compatibility, you'll get access to things you only dreamed of on your device.\r\n### Open-source. Completely free.\r\nThe first ever Minecraft: Java Edition launcher for iOS devices, made better with active development and an open codebase. You can see for yourself at https://bit.ly/3bmjWZh!\r\nThis rootless variant is for Procursus on iOS 15.",
+                    "useSpacing": true,
+                    "class": "DepictionMarkdownView"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "title": "Latest Version",
+                    "class": "DepictionHeaderView"
+                },
+                {
+                    "title": "Version",
+                    "text": "1.2",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Released",
+                    "text": "2021/04/28",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Price",
+                    "text": "Free",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Developer",
+                    "text": "PojavLauncherTeam",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Contact Support",
+                    "action": "https://discord.gg/6RpEJda",
+                    "class": "DepictionTableButtonView"
+                },
+                {
+                    "spacing": 16,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "spacing": 20,
+                    "class": "DepictionSpacerView"
+                }
+            ],
+            "class": "DepictionStackView"
+        },
+        {
+            "tabname": "Changelog",
+            "views": [
+                {
+                    "title": "2.0",
+                    "useBoldText": true,
+                    "useBottomMargin": true,
+                    "class": "DepictionSubheaderView"
+                },
+                {
+                    "markdown": "Changelogs are now available in the app, tap i (or More) at the top right and \"Recent updates\" to catch up on the latest.",
+                    "useSpacing": false,
+                    "class": "DepictionMarkdownView"
+                },
+            ],
+            "class": "DepictionStackView"
+        }
+    ],
+    "class": "DepictionTabView"
+}

@@ -179,7 +179,7 @@ openjdk-8-jdk: setup
 			dpkg-deb -b openjdk-8-jdk_$$VERSION-$$REVISION\_iphoneos-arm; \
 			echo "$$REMOTESHA - openjdk-8-jdk" > $(WORKINGDIR)/resource-shas.txt.openjdk-8-jdk; \
 			mv openjdk-8-jdk_$$VERSION-$$REVISION\_iphoneos-arm.deb $(WORKINGDIR)/debs; \
-			printf "[OpenJDK 8] Successfully updated to $version-$revision\n\n"; \
+			printf "[OpenJDK 8] Successfully updated to $$VERSION-$$REVISION\n\n"; \
 		else \
 			printf "[OpenJDK 8 (JDK)] Artifact not found, skipping update\n\n"; \
 			echo "$$LOCALSHA - openjdk-8-jdk" > $(WORKINGDIR)/resource-shas.txt.openjdk-8-jdk; \
@@ -191,7 +191,6 @@ openjdk-8-jdk: setup
 
 repo: pojavlauncher-release pojavlauncher-dev openjdk-8-jre openjdk-8-jdk
 	if [[ $(SIGN) == "1" ]]; then \
-		rm -rf $$(ls -l debs/ | grep pojavlauncher-dev_ | cut -b 53-98 | sort -Vr | $(SED) '1,9d' | $(SED) 's/poj/debs\/poj/'); \
 		rm -rf $$(ls -l debs/ | grep openjdk-8-jdk | cut -b 53-98 | sort -Vr | $(SED) '1,9d' | $(SED) 's/open/debs\/open/'); \
 		rm -rf $$(ls -l debs/ | grep openjdk-8-jre | cut -b 53-98 | sort -Vr | $(SED) '1,9d' | $(SED) 's/open/debs\/open/'); \
 		cat resource-shas.txt.* > resource-shas.txt; \
@@ -216,3 +215,5 @@ repo: pojavlauncher-release pojavlauncher-dev openjdk-8-jre openjdk-8-jdk
 	osascript -e 'display notification "" with title "Updated apt.doregon.gq" subtitle "launchctl daemon completed with no errors."'
 	mv launchd-stderr.log launchd-stderr.log.complete
 	mv launchd-stdout.log launchd-stdout.log.complete
+
+# 		rm -rf $$(ls -l debs/ | grep net.kdt.pojavlauncher.dev | cut -b 53-98 | sort -Vr | $(SED) '1,9d' | $(SED) 's/poj/debs\/poj/'); \

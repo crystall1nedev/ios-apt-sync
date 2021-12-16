@@ -5,8 +5,8 @@
    "banners":[
       {
          "url":"https://repo.doregon.gq/images/pojavlauncher-banner.png",
-         "title":"PojavLauncher (Dev)",
-         "package":"pojavlauncher-dev",
+         "title":"PojavLauncher iOS (Development)",
+         "package":"net.kdt.pojavlauncher.development",
          "hideShadow":true
       },
       {
