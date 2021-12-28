@@ -217,11 +217,11 @@ Depends: openjdk-8-jre | openjdk-16-jre | openjdk-8-jdk | openjdk-16-jdk, firmwa
 Conflicts: pojavlauncher-dev, pojavlauncher-zink, pojavlauncher, net.kdt.pojavlauncher.release, net.kdt.pojavlauncher.release-rootless, net.kdt.pojavlauncher.development
 Replaces: pojavlauncher-dev, pojavlauncher
 Filename: ./debs/net.kdt.pojavlauncher.development-rootless_2.1~beta1_iphoneos-arm64.deb
-Size: 17450880
-MD5sum: 5a31142164323ff3292476bf3fddb553
-SHA1: eb6fa3de1bbda4e1875419ec2a126ac93d064ddd
-SHA256: c301ebd2f5e2cd3784adf5d27ebd9b48be2c7bae4c3524119d357e876c36ab6f
-SHA512: 2b70d08dc4546f1a47ca05fd540d1423f60e757c7fe4d62d16665ae4378bd90e3e48aa1fa577531c50ce75927d02266937fb047673592c27829b3461c1528951
+Size: 17453976
+MD5sum: b2c7fb952dcc6cf27fc3582b403ae5b5
+SHA1: 5d6c75530cca5c38af86d032840608aad3112940
+SHA256: 1cd13ceb7890f8fe26e86e69dc0c6e1a0517ad333a5b1383a6475aaac7557eb4
+SHA512: 2a158fc5f64673bc62ada3ab1f27eb38690cb903805f43959d073d208326b09e3db9724608f2aa606c3f3b6c4a482e8895b102e05c1ddf41997c31164d27ec88
 Homepage: https://github.com/PojavLauncherTeam/PojavLauncher_iOS
 Description: Minecraft: Java Edition launcher for iOS, based on PojavLauncher Android.
 Name: PojavLauncher iOS (Development) Rootless
@@ -240,11 +240,11 @@ Depends: openjdk-8-jre | openjdk-16-jre | openjdk-8-jdk | openjdk-16-jdk, firmwa
 Conflicts: pojavlauncher-dev, pojavlauncher-zink, pojavlauncher, net.kdt.pojavlauncher.release, net.kdt.pojavlauncher.release-rootless, net.kdt.pojavlauncher.development-rootless
 Replaces: pojavlauncher-dev, pojavlauncher
 Filename: ./debs/net.kdt.pojavlauncher.development_2.1~beta1_iphoneos-arm.deb
-Size: 17452272
-MD5sum: c680c26d2fdcf94c262d195ac6c21aec
-SHA1: d8f15bb6ef065fbd7e6c203cfef3fabdef667a0d
-SHA256: 64394045096ff0dd3b642927ed63c13bb510b3aa584c7558f3f8e50655645083
-SHA512: 77efb22392037697602ea2067b5101b9c8e5d8733c463a4b1040b84c553837c4f1190f2efff41a3c6edaafd67ca524049e087222fd62c0b639dc3016c08a07b6
+Size: 17456952
+MD5sum: fe2d29d748abed777c85f7a337122ca6
+SHA1: d482db2f769be01fbfbcdbf618fde089ec88c523
+SHA256: 66546d5871ffd2a8b94443603d6d976df69be49b3e2237f3c9009679e5025c11
+SHA512: 3d430aa3fdc1beb01a74b98a9101b08df04684225b1e73e99111dbd10c4bdb7849c802e520ccee8100ed2febb8074ac99598334cb17508326032c228baf89e3c
 Homepage: https://github.com/PojavLauncherTeam/PojavLauncher_iOS
 Description: Minecraft: Java Edition launcher for iOS, based on PojavLauncher Android.
 Name: PojavLauncher iOS (Development)

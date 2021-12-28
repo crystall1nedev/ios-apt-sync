@@ -1,4 +1,4 @@
- - openjdk-8-jdk
- - openjdk-8-jre
-2e30a1470faac7011af57a5331bb6297c5d2147d - pojavlauncher-dev
+ - openjdk-8-jdk - openjdk-8-jdk - openj - openjdk-8-jdk
+ - openjdk-8-jre - openjdk-8-jre - openj - openjdk-8-jre
+33b00e417caffa395a7d153a2e4f4b43e4d32ee6 - pojavlauncher-dev
 f7b8401141efb6418f28be7c8c6b574ce5f34695 - pojavlauncher

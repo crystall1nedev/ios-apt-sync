@@ -1,5 +1,5 @@
 SHELL       := /opt/procursus/bin/bash
-.SHELLFLAGS := -ecux
+.SHELLFLAGS := -ecu
 WORKINGDIR  := /Library/WebServer/Documents/APT
 TEMPDIR     := $(WORKINGDIR)/debs/temp
 SED         := /opt/procursus/bin/gsed
@@ -11,23 +11,23 @@ endif
 all: clean repo
 
 clean:
-	if [[ -d $(TEMPDIR) ]]; then \
+	@if [[ -d $(TEMPDIR) ]]; then \
 		rm -rf $(TEMPDIR)/*; \
-		printf "Removed temp directory."; \
+		printf "Removed temp directory.\n\n"; \
 	else \
-		printf "Nothing to clean."; \
+		printf "Nothing to clean.\n\n"; \
 	fi
 	
 setup: clean
-	if [[ -d $(TEMPDIR) ]]; then \
-		printf "Using existing temp directory."; \
+	@if [[ -d $(TEMPDIR) ]]; then \
+		printf "Using existing temp directory.\n\n"; \
 	else \
 		mkdir -p $(TEMPDIR); \
-		printf "Set up temporary directory."; \
+		printf "Set up temporary directory.\n\n"; \
 	fi
 
 pojavlauncher-release: setup
-	LOCALSHA=$$(cat $(WORKINGDIR)/resource-shas.txt | grep -w ".* pojavlauncher$$" | cut -b 1-40); \
+	@LOCALSHA=$$(cat $(WORKINGDIR)/resource-shas.txt | grep -w ".* pojavlauncher$$" | cut -b 1-40); \
 	REMOTESHA=$$(git ls-remote https://github.com/PojavLauncherTeam/PojavLauncher_iOS | grep refs/tags | sort -t/ -k2 -r | $(SED) '1d' | $(SED) '2p' | $(SED) '2,1000d' | cut -b 1-40); \
 	DOWNURL=$$(curl --netrc-file /Library/WebServer/netrc -H "Accept: application/vnd.github.v3+json" -s https://api.github.com/repos/PojavLauncherTeam/PojavLauncher_iOS/releases | jq '.[] | .assets[] | select(.name | startswith("net.kdt.pojavlauncher.release_")) | .browser_download_url' | gsed '2,1000d' | gsed 's/"//' | gsed 's/"[^"]*$$//'); \
 	DOWNNAME=$$(curl --netrc-file /Library/WebServer/netrc -H "Accept: application/vnd.github.v3+json" -s https://api.github.com/repos/PojavLauncherTeam/PojavLauncher_iOS/releases | jq '.[] | .assets[] | select(.name | startswith("net.kdt.pojavlauncher.release_")) | .name' | $(SED) '2,1000d' | gsed 's/.$$//' | gsed 's/"//'); \
@@ -46,7 +46,7 @@ pojavlauncher-release: setup
 	fi
 	
 pojavlauncher-dev: setup
-	REMOTESHA=$$(git ls-remote https://github.com/PojavLauncherTeam/PojavLauncher_iOS | grep refs/heads/main | cut -b 1-40); \
+	@REMOTESHA=$$(git ls-remote https://github.com/PojavLauncherTeam/PojavLauncher_iOS | grep refs/heads/main | cut -b 1-40); \
 	LOCALSHA=$$(cat $(WORKINGDIR)/resource-shas.txt | grep pojavlauncher-dev | cut -b 1-40); \
 	DOWNURLold=$$(curl --netrc-file /Library/WebServer/netrc -H "Accept: application/vnd.github.v3+json" -s https://api.github.com/repos/PojavLauncherTeam/PojavLauncher_iOS/actions/artifacts | jq '.artifacts[] | select(.name=="net.kdt.pojavlauncher.development_iphoneos-arm.deb") | .archive_download_url' | gsed '2,1000d' | gsed 's/"//'); \
 	DOWNURL=https://nightly.link/PojavLauncherTeam/PojavLauncher_iOS/workflows/development/main/net.kdt.pojavlauncher.development_iphoneos-arm.deb.zip; \
@@ -89,7 +89,7 @@ pojavlauncher-dev: setup
 	fi
 
 openjdk-8-jre: setup
-	REMOTESHA=$$(git ls-remote https://github.com/PojavLauncherTeam/android-openjdk-build-multiarch | grep refs/heads/buildjre8 | cut -b 1-40); \
+	@REMOTESHA=$$(git ls-remote https://github.com/PojavLauncherTeam/android-openjdk-build-multiarch | grep refs/heads/buildjre8 | cut -b 1-40); \
 	LOCALSHA=$$(cat $(WORKINGDIR)/resource-shas.txt | grep openjdk-8-jre | cut -b 1-40); \
 	DOWNURL=$$(curl -H "Accept: application/vnd.github.v3+json" -s https://api.github.com/repos/PojavLauncherTeam/android-openjdk-build-multiarch/actions/artifacts | jq '.artifacts[] | select(.name=="jre8-ios-aarch64") | .archive_download_url' | $(SED) '2,1000d' | $(SED) 's/"//' | $(SED) 's/"[^"]*$$//'); \
 	if [[ $$REMOTESHA != $$LOCALSHA ]]; then \
@@ -136,7 +136,7 @@ openjdk-8-jre: setup
 	fi
 
 openjdk-8-jdk: setup 
-	REMOTESHA=$$(git ls-remote https://github.com/PojavLauncherTeam/android-openjdk-build-multiarch | grep refs/heads/buildjre8 | cut -b 1-40); \
+	@REMOTESHA=$$(git ls-remote https://github.com/PojavLauncherTeam/android-openjdk-build-multiarch | grep refs/heads/buildjre8 | cut -b 1-40); \
 	LOCALSHA=$$(cat $(WORKINGDIR)/resource-shas.txt | grep openjdk-8-jdk | cut -b 1-40); \
 	DOWNURL=$$(curl -H "Accept: application/vnd.github.v3+json" -s https://api.github.com/repos/PojavLauncherTeam/android-openjdk-build-multiarch/actions/artifacts | jq '.artifacts[] | select(.name=="jdk8-ios-aarch64") | .archive_download_url' | $(SED) '2,1000d' | $(SED) 's/"//' | $(SED) 's/"[^"]*$$//'); \
 	if [[ $$REMOTESHA != $$LOCALSHA ]]; then \
@@ -190,7 +190,7 @@ openjdk-8-jdk: setup
 	fi
 
 repo: pojavlauncher-release pojavlauncher-dev openjdk-8-jre openjdk-8-jdk
-	if [[ $(SIGN) == "1" ]]; then \
+	@if [[ $(SIGN) == "1" ]]; then \
 		rm -rf $$(ls -l debs/ | grep openjdk-8-jdk | cut -b 53-98 | sort -Vr | $(SED) '1,9d' | $(SED) 's/open/debs\/open/'); \
 		rm -rf $$(ls -l debs/ | grep openjdk-8-jre | cut -b 53-98 | sort -Vr | $(SED) '1,9d' | $(SED) 's/open/debs\/open/'); \
 		cat resource-shas.txt.* > resource-shas.txt; \
